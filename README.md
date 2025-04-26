@@ -84,7 +84,6 @@ When you start a task, add your name before it and move it to the In Progress se
 #### MLOps
 - [Toby] Stub data for live app
 - Commit to repo and and trim the shooting video to 30 seconds
-- [Ryan] Label 5 frames of the video in Canva
 - [Toby] Model selection
 - [Toby] Exploratory modeling
 - [Toby] Fine tuning
@@ -126,6 +125,8 @@ When you start a task, add your name before it and move it to the In Progress se
 #### MLOps
 - Gather official marksmanship procedural guides
 - Gather test video screenshots for UI mockup
+- Label 5 frames of the video in Canva
+
 
 #### DevOps
 - No tasks completed yet
