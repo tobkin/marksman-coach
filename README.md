@@ -82,9 +82,7 @@ When you start a task, add your name before it and move it to the In Progress se
 - Integrate batch inference data with live application
 
 #### MLOps
-- [Toby] Stub data for live app
 - Commit to repo and and trim the shooting video to 30 seconds
-- [Toby] Model selection
 - [Toby] Exploratory modeling
 - [Toby] Fine tuning
 - [Toby] Batch inference
@@ -95,12 +93,13 @@ When you start a task, add your name before it and move it to the In Progress se
 - [If we have problems] Dev containerization
 
 ### In Progress
+- [Toby] Stub data for live app
+- [Toby] Model selection
 
 #### Pitch
 - No tasks currently in progress
 
 #### Frontend Engineering
-- [Toby] Hello World Steamlit App
 
 #### Integration Engineering
 - No tasks currently in progress
