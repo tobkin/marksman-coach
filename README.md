@@ -31,6 +31,29 @@
 - Reference Githubs:
   - [Edunet_AI_internship_2025](https://github.com/itzdineshx/Edunet_AI_internship_2025?tab=readme-ov-file)
 
+## Shot Process Overview
+
+Based on the army rifle and carbine documents, the shot process consists of three distinct phases:
+
+**Pre-shot phase**:
+- Position
+- Natural Point of Aim
+- Sight Alignment/Sight Picture
+- Hold
+
+**Shot phase**:
+- Refine Aim
+- Breathing Control
+- Trigger Control
+
+**Post-shot phase**:
+- Follow-through
+- Recoil management
+- Call the Shot
+- Evaluate
+
+This process forms a complete cycle for each shot taken. The functional elements that support this process include stability, aim, control, and movement – all of which work together to produce accurate and precise shots.
+
 ## Test Data
 [youtube video links]
 
