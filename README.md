@@ -61,7 +61,7 @@ When you start a task, add your name before it and move it to the In Progress se
 #### MLOps
 - [Toby] Stub data for live app
 - Commit to repo and and trim the shooting video to 30 seconds
-- Label 5 frames of the video in Canva
+- [Ryan] Label 5 frames of the video in Canva
 - [Toby] Model selection
 - [Toby] Exploratory modeling
 - [Toby] Fine tuning
