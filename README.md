@@ -1,4 +1,5 @@
 ## Repo Map
+```
 .
 ├── data
 │   ├── example-pose-predictions
@@ -15,6 +16,7 @@
 ├── army-rifle-and-carbine.pdf
 ├── requirements.txt
 └── shooting-video.mov
+```
 
 ## Dev Environment Setup
 1. Create a virtual environment:
