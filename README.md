@@ -1,6 +1,9 @@
 ## Repo Map
 ```
 .
+├── assets
+│   ├── banner.png
+│   └── shooting-video.mov
 ├── data
 │   ├── example-pose-predictions
 │   ├── multi-subject
