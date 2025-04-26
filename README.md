@@ -51,10 +51,35 @@ When you start a task, add your name before it and move it to the In Progress se
 
 ### In Progress
 
+#### Pitch
+- No tasks currently in progress
+
 #### Frontend Engineering
 - [Toby] Hello World Steamlit App
 
+#### Integration Engineering
+- No tasks currently in progress
+
+#### MLOps
+- No tasks currently in progress
+
+#### DevOps
+- No tasks currently in progress
+
 ### Done
+
+#### Pitch
+- No tasks completed yet
+
+#### Frontend Engineering
 - [All]: UI mockup in Canva
+
+#### Integration Engineering
+- No tasks completed yet
+
+#### MLOps
 - Gather official marksmanship procedural guides
 - Gather test video screenshots for UI mockup
+
+#### DevOps
+- No tasks completed yet
