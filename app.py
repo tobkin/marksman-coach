@@ -18,9 +18,10 @@ st.markdown(
     unsafe_allow_html=True
 )
 current_dir = os.path.dirname(os.path.abspath(__file__))
-video_path = os.path.join(current_dir, "shooting-video.mov")
-
-st.title("Marksman Trainer")
+video_path = os.path.join(current_dir, "./assets/shooting-video.mov")
+banner_path = os.path.join(current_dir, "./assets/banner.png")
+st.image(banner_path)
+st.title( "Marksman Trainer")
 st.markdown(
     """ 
     A tool that takes your shooting video and gives you real-time  
