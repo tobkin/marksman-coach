@@ -25,7 +25,6 @@ When you start a task, add your name before it and move it to the In Progress se
 - Contact & followup list
 
 #### Frontend Engineering
-- [Toby] Hello World Steamlit App
 - Header: Easy to read URL for the app, Prose, imagery, and soft elements to make it look Army
 - Video player module with slider
 - Print the pose ratings to the side of the video
@@ -51,8 +50,11 @@ When you start a task, add your name before it and move it to the In Progress se
 - [If we have problems] Dev containerization
 
 ### In Progress
-- [All]: UI mockup in Canva
+
+#### Frontend Engineering
+- [Toby] Hello World Steamlit App
 
 ### Done
+- [All]: UI mockup in Canva
 - Gather official marksmanship procedural guides
 - Gather test video screenshots for UI mockup
