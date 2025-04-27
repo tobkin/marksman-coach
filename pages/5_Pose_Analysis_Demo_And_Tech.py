@@ -3,8 +3,15 @@ import pandas as pd
 import os
 import glob
 import requests
+import json
+
+# Set page layout to wide format
+st.set_page_config(layout="wide")
 
 st.title("Pose Analysis Demo & Technical Explanation")
+
+# Create inferences directory if it doesn't exist
+os.makedirs("./inferences", exist_ok=True)
 
 # Load API key and mask it
 api_key_path = "./secrets/quickpose-api-key.txt"
@@ -14,6 +21,8 @@ if os.path.exists(api_key_path):
         masked_key = "*" * (len(api_key) - 4) + api_key[-4:]
 else:
     masked_key = "<Your API Key>"
+    api_key = None
+    st.warning("API key not found. Please place your Quickpose API key in ./secrets/quickpose-api-key.txt")
 
 # Frame selector for Quickpose
 st.subheader("Quickpose Frame Analysis")
@@ -23,11 +32,16 @@ frame_index = st.slider("Select a frame from the `./data/frames` directory for Q
 selected_frame = frame_files[frame_index]
 relative_path = os.path.relpath(selected_frame)
 
+# Get frame filename for caching
+frame_filename = os.path.basename(selected_frame)
+cache_filename = f"./inferences/quickpose_{frame_filename.replace('.jpg', '.json')}"
+
 # code snippet: the API call to the quickpose model with the selected image:
 api_format = st.selectbox("Select API request format:", ["Python", "curl"], key="api_format_selector")
 
-if api_format == "Python":
-    st.code(f'''
+with st.expander("Show API Request Code", expanded=False):
+    if api_format == "Python":
+        st.code(f'''
 import requests
 
 api_key = "{masked_key}"  
@@ -56,8 +70,8 @@ if response.status_code == 200:
 else:
     print(f"Error: {{response.status_code}}, {{response.text}}")
 ''', language="python")
-else:  # curl format
-    st.code(f'''
+    else:  # curl format
+        st.code(f'''
 curl -X POST "https://api.quickpose.ai/jointtrack/v1/detect" \\
      -H "X-API-Key: {masked_key}" \\
      -H "Content-Type: multipart/form-data" \\
@@ -66,19 +80,73 @@ curl -X POST "https://api.quickpose.ai/jointtrack/v1/detect" \\
      -F 'side=both'
 ''', language="bash")
 
+# Function to perform Quickpose API call and cache results
+def call_quickpose_api(image_path, cache_path, api_key):
+    cached = False
+    if os.path.exists(cache_path):
+        with open(cache_path, 'r') as f:
+            result = json.load(f)
+        cached = True
+    else:
+        if api_key is None:
+            return None, False
+            
+        measurements = "elbow_side,shoulder_extension,neck_lateral_flexion,neck_forward_flexion,hip_side,knee_side"
+        side = "both"
+        
+        url = "https://api.quickpose.ai/jointtrack/v1/detect"
+        headers = {
+            "X-API-Key": api_key
+        }
+        
+        files = {
+            "image": open(image_path, "rb")
+        }
+        data = {
+            "measurement": measurements,
+            "side": side
+        }
+        
+        response = requests.post(url, headers=headers, files=files, data=data)
+        
+        if response.status_code == 200:
+            result = response.json()
+            # Cache the result
+            with open(cache_path, 'w') as f:
+                json.dump(result, f)
+        else:
+            return None, False
+    
+    return result, cached
+
 # Display in two columns
 col1, col2 = st.columns(2)
 
 with col1:
     st.write("**📥 Input Image**")
-    st.image(selected_frame, caption=f"Path: `{relative_path}`")
+    st.image(selected_frame, caption=f"Path: `{relative_path}`", width=600)
 
 with col2:
     st.write("**📤 Pose Analysis Output**")
-    st.info("API integration not implemented yet. This will show the processed image with pose landmarks when implemented.")
+    
+    # Call the API and display results
+    api_result, cached = call_quickpose_api(selected_frame, cache_filename, api_key)
+    
+    if api_result:
+        status_msg = "🔄 Live API inference" if not cached else "💾 Cached inference"
+        st.success(f"{status_msg}")
+        
+        # Display the result as a code block
+        with st.expander("Show API Response JSON", expanded=False):
+            st.code(json.dumps(api_result, indent=2), language="json")
+        
+        # You could also visualize the pose landmarks on the image here
+        # This would require parsing the API response and drawing on the image
+    else:
+        st.error("API call failed or API key not provided")
 
 st.write("### What is pose analysis?")
-st.image("./assets/pitch/singapore-marksman-pose-analysis.png", caption="Singapore marksman using pose analysis")
+st.image("./assets/pitch/singapore-marksman-pose-analysis.png", caption="Singapore marksman using pose analysis", width=600)
 st.write("""
     Pose analysis is a computer vision technology that tracks human body positions and movements in real-time. 
     Originally developed for sports and physical therapy applications, it uses AI to identify key body landmarks 
@@ -91,7 +159,7 @@ st.write("""
 """)
 
 st.write("### How can it be used to assess marksmanship fundamentals?")
-st.image("./assets/pitch/canva-mockup.png", caption="Concept: Pose analysis technology applied to marksmanship training")
+st.image("./assets/pitch/canva-mockup.png", caption="Concept: Pose analysis technology applied to marksmanship training", width=600)
 
 data = {
     "Element": [
@@ -129,7 +197,7 @@ st.table(df.style.set_properties(subset=['API Measurements'], **{'width': '170px
 
 
 st.write("### Pose analysis using Quickpose")
-st.image("./assets/pitch/quickpose-sports-performance-pdp.png", caption="Quickpose: A high-level wrapper around MediaPipe Pose")
+st.image("./assets/pitch/quickpose-sports-performance-pdp.png", caption="Quickpose: A high-level wrapper around MediaPipe Pose", width=600)
 
 st.write("### Quickpose API Request")
 st.write("""
@@ -146,11 +214,13 @@ st.write("""
     As the underlying foundation for Quickpose, MediaPipe Pose provides more granular control and customization 
     options for developers with computer vision expertise.
 """)
-st.image("./assets/pitch/mediapipe-pose-github-tearsheet.png", caption="MediaPipe Pose: The underlying library for Quickpose. Can be used for directly fine-tuning custom pose analysis use cases.")
+st.image("./assets/pitch/mediapipe-pose-github-tearsheet.png", caption="MediaPipe Pose: The underlying library for Quickpose. Can be used for directly fine-tuning custom pose analysis use cases.", width=600)
 
 st.write("### Example MediaPipe API Implementation")
 st.warning("This code is a work in progress and has not been tested. It is provided as a conceptual reference for direct MediaPipe integration.", icon="️🚧")
-st.code('''
+
+with st.expander("Show MediaPipe Example Code", expanded=False):
+    st.code('''
 import cv2
 import mediapipe as mp
 import numpy as np
@@ -202,7 +272,7 @@ col1, col2 = st.columns(2)
 
 with col1:
     st.write("**📥 Input Image**")
-    st.image(selected_frame, caption=f"Path: `{relative_path}`")
+    st.image(selected_frame, caption=f"Path: `{relative_path}`", width=600)
 
 with col2:
     st.write("**📤 Pose Analysis Output**")

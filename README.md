@@ -12,21 +12,36 @@
 .
 ├── assets
 │   ├── banner.png
-│   └── marksman-pipes-vid.mov
+│   ├── marksman-pipes-vid.mov
+│   └── pitch/ 
 ├── data
 │   ├── example-pose-predictions
+│   ├── frames
 │   ├── multi-subject
+│   ├── pose-estimations
 │   └── single-subject
+├── inferences
+│   ├── quickpose_frame_0001.json
+│   └── quickpose_frame_0179.json
+├── pages
+│   ├── 1_The_Marksman_Training_Problem.py
+│   ├── 2_Pose_Analysis_Technology.py
+│   ├── 3_Maintainable_and_Cost_Effective.py
+│   ├── 4_Superhuman_Feedback.py
+│   └── 5_Pose_Analysis_Demo_And_Tech.py
 ├── project-mgmt
 │   ├── 1-todo.md
 │   ├── 2-in-progress.md
 │   └── 3-done.md
 ├── LICENSE
+├── Marksman_Trainer.py
 ├── README.md
-├── app.py
 ├── army-marksmanship-unit-rifle.pdf
 ├── army-rifle-and-carbine.pdf
+├── pitch-talk-track.md
 ├── requirements.txt
+├── tech-stack.md
+└── .gitignore
 ```
 
 ## Tech Stack
