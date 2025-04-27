@@ -3,13 +3,22 @@ import pandas as pd
 
 st.title("The Marksman Training Solution")
 
-st.write("## What is pose analysis?")
-# todo: make a short, concise, business-focused explanation of what pose analysis is and its history
+st.write("### What is pose analysis?")
+st.image("./assets/pitch/singapore-marksman-pose-analysis.png", caption="Singapore marksman using pose analysis")
+st.write("""
+    Pose analysis is a computer vision technology that tracks human body positions and movements in real-time. 
+    Originally developed for sports and physical therapy applications, it uses AI to identify key body landmarks 
+    and measure joint angles with high precision. This technology has evolved from research labs to practical 
+    applications over the past decade, with Google's MediaPipe making it accessible for edge devices.
+    
+    For military training, pose analysis offers an objective, consistent way to evaluate and improve 
+    fundamental skills without increasing instructor workload or ammunition consumption. It transforms 
+    traditional training by providing quantitative feedback that human observation alone might miss.
+""")
 
-st.write("## How can it be used to assess marksmanship fundamentals?")
-# todo: make a streamlit table from this context:
+st.write("### How can it be used to assess marksmanship fundamentals?")
+st.image("./assets/pitch/canva-mockup.png", caption="Concept: Pose analysis technology applied to marksmanship training")
 
-# Create dataframe with marksman position measurement strategies
 data = {
     "Element": [
         "Head Position", 
@@ -42,24 +51,22 @@ data = {
 
 df = pd.DataFrame(data)
 df = df.set_index("Element")
-st.table(df)
+st.table(df.style.set_properties(subset=['API Measurements'], **{'width': '170px'}))
 
-st.write("## API Implementation")
+
+st.write("### Pose analysis using Quickpose")
+st.image("./assets/pitch/quickpose-sports-performance-pdp.png", caption="Quickpose: A high-level wrapper around MediaPipe Pose")
+st.write("### API Implementation")
 st.code("""measurement=elbow_side,shoulder_extension,neck_lateral_flexion,neck_forward_flexion,hip_side,knee_side
 side=both""", language="text")
-
-st.write("## Pose analysis using Quickpose")
 # todo explain that quickpose is a high-level wrapper around mediapipe pose
 # code snippet: the API call to the quickpose model
 # drag selector the same as in Marksman_Trainer.py to select the frame jpg
 # two columns: one for input frame, one for output frame
 
-st.write("## Pose analysis using Mediapipe")
+st.write("### Pose analysis using Mediapipe")
 # todo explain that mediapipe is a lower-level library that quickpose is built on top of
-# todo: 300px wide screenshot of ./assets/pitch/mediapipe-pose-github-tearsheet.png
+st.image("./assets/pitch/mediapipe-pose-github-tearsheet.png", caption="MediaPipe Pose: The underlying library for Quickpose. Can be used for directly fine-tuning custom pose analysis use cases.")
 # code snippet: the API call to the mediapipe pose model
 # drag selector the same as in Marksman_Trainer.py to select the frame jpg
 # two columns: one for input frame, one for output frame
-
-st.image("./assets/training-ratio.jpg", width=500)
-st.image("./assets/training-accident.jpg", width=500)
