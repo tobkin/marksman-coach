@@ -63,29 +63,21 @@ with col1:
 with col2:
     st.subheader("Feedback")
     
-    # Create the HTML table manually
-    table_html = """
-    <style>
-    .custom-table {
-        border-collapse: collapse;
-        width: 100%;
-    }
-    .custom-table td {
-        border: 1px solid #363636;
-        padding: 6px 12px;
-        font-size: 16px;
-    }
-    </style>
-    <table class="custom-table">
-    """
-    
-    # Add rows
+   # Create a clean display without using HTML tables
     for row in components:
-        table_html += f"<tr><td>{row['Component']}</td><td>{row['Grade']}</td></tr>"
-    
-    table_html += "</table>"
-    
-    st.write(table_html, unsafe_allow_html=True)
+        component = row['Component']
+        grade = row['Grade']
+        
+        cols = st.columns([3, 2])
+        with cols[0]:
+            st.write(component)
+        with cols[1]:
+            if grade == "Good":
+                st.markdown(f"<span style='color:green; font-weight:bold;'>{grade}</span>", unsafe_allow_html=True)
+            else:
+                st.markdown(f"<span style='color:red; font-weight:bold;'>{grade}</span>", unsafe_allow_html=True)
+        
+        st.markdown("<hr style='margin: 0; padding: 0; height: 1px; background-color: #363636;'>", unsafe_allow_html=True)
 
 
 # --- Footer ---
