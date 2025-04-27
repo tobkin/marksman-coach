@@ -63,24 +63,31 @@ except Exception as e:
     st.warning(f"Could not load predictions: {e}")
     predictions = None
 
-# Update frame if playing
-if st.session_state['playing']:
-    # Increment frame
-    st.session_state['current_frame'] = (st.session_state['current_frame'] + 5) % len(frames)
+# Frame selection slider with callback
+def on_frame_change():
+    if not st.session_state['playing']:
+        st.session_state['current_frame'] = st.session_state['frame_slider']
 
-# Very simple play button at the top
+current_frame = st.slider(
+    "Frame", 
+    0, 
+    len(frames)-1, 
+    st.session_state['current_frame'], 
+    key="frame_slider",
+    on_change=on_frame_change
+)
+
+# Play/Pause button
 if st.button("Play/Pause"):
     toggle_play()
+    if not st.session_state['playing']:
+        st.session_state['current_frame'] = st.session_state['frame_slider']
 
-# Frame selection slider
-idx = st.slider("Frame", 0, len(frames)-1, 0,key="frame_slider")
-if not st.session_state['playing']:
-    st.session_state['current_frame'] = idx
+# Update frame only if playing
+if st.session_state['playing']:
+    st.session_state['current_frame'] = (st.session_state['current_frame'] + 5) % len(frames)
 
-# # Speed slider right after frame slider
-# st.session_state['fps'] = st.slider("Speed", 1, 60, st.session_state['fps'], 5)
-
-# Get current frame index
+# Get current frame index for display
 current_idx = st.session_state['current_frame']
 
 # Prepare feedback data
