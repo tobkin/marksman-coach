@@ -1,0 +1,901 @@
+videoPath,frame,shotPhase,head_position,rifle_butt_placement,non_firing_hand_position,elbow_placement,natural_point_of_aim,balance,relaxation
+./assets/shooting-video.mov,1,Position,bad,bad,bad,bad,bad,bad,bad
+./assets/shooting-video.mov,2,Position,bad,bad,bad,bad,bad,bad,bad
+./assets/shooting-video.mov,3,Position,bad,bad,bad,bad,bad,bad,bad
+./assets/shooting-video.mov,4,Position,bad,bad,bad,bad,bad,bad,bad
+./assets/shooting-video.mov,5,Position,bad,bad,bad,bad,bad,bad,bad
+./assets/shooting-video.mov,6,Position,bad,bad,bad,bad,bad,bad,bad
+./assets/shooting-video.mov,7,Position,bad,bad,bad,bad,bad,bad,bad
+./assets/shooting-video.mov,8,Position,bad,bad,bad,bad,bad,bad,bad
+./assets/shooting-video.mov,9,Position,bad,bad,bad,bad,bad,bad,bad
+./assets/shooting-video.mov,10,Position,bad,bad,bad,bad,bad,bad,bad
+./assets/shooting-video.mov,11,Position,bad,bad,bad,bad,bad,bad,bad
+./assets/shooting-video.mov,12,Position,bad,bad,bad,bad,bad,bad,bad
+./assets/shooting-video.mov,13,Position,bad,bad,bad,bad,bad,bad,bad
+./assets/shooting-video.mov,14,Position,bad,bad,bad,bad,bad,bad,bad
+./assets/shooting-video.mov,15,Position,bad,bad,bad,bad,bad,bad,bad
+./assets/shooting-video.mov,16,Position,bad,bad,bad,bad,bad,bad,bad
+./assets/shooting-video.mov,17,Position,bad,bad,bad,bad,bad,bad,bad
+./assets/shooting-video.mov,18,Position,bad,bad,bad,bad,bad,bad,bad
+./assets/shooting-video.mov,19,Position,bad,bad,bad,bad,bad,bad,bad
+./assets/shooting-video.mov,20,Position,bad,bad,bad,bad,bad,bad,bad
+./assets/shooting-video.mov,21,Position,bad,bad,bad,bad,bad,bad,bad
+./assets/shooting-video.mov,22,Position,bad,bad,bad,bad,bad,bad,bad
+./assets/shooting-video.mov,23,Position,bad,bad,bad,bad,bad,bad,bad
+./assets/shooting-video.mov,24,Position,bad,bad,bad,bad,bad,bad,bad
+./assets/shooting-video.mov,25,Position,bad,bad,bad,bad,bad,bad,bad
+./assets/shooting-video.mov,26,Position,bad,bad,bad,bad,bad,bad,bad
+./assets/shooting-video.mov,27,Position,bad,bad,bad,good,bad,bad,bad
+./assets/shooting-video.mov,28,Position,bad,bad,bad,good,bad,bad,bad
+./assets/shooting-video.mov,29,Position,bad,bad,bad,good,bad,bad,bad
+./assets/shooting-video.mov,30,Position,bad,bad,bad,good,bad,bad,bad
+./assets/shooting-video.mov,31,Position,good,bad,bad,good,bad,bad,bad
+./assets/shooting-video.mov,32,Position,good,bad,bad,good,bad,bad,bad
+./assets/shooting-video.mov,33,Position,good,bad,bad,good,bad,bad,bad
+./assets/shooting-video.mov,34,Position,good,bad,bad,good,bad,bad,bad
+./assets/shooting-video.mov,35,Position,good,bad,bad,good,bad,bad,bad
+./assets/shooting-video.mov,36,Position,good,bad,bad,good,bad,bad,bad
+./assets/shooting-video.mov,37,Position,good,bad,bad,good,bad,bad,bad
+./assets/shooting-video.mov,38,Position,good,bad,bad,good,bad,bad,bad
+./assets/shooting-video.mov,39,Position,good,bad,bad,good,bad,bad,bad
+./assets/shooting-video.mov,40,Position,good,bad,bad,good,bad,bad,bad
+./assets/shooting-video.mov,41,Position,good,good,bad,good,bad,bad,bad
+./assets/shooting-video.mov,42,Position,good,good,bad,good,bad,bad,bad
+./assets/shooting-video.mov,43,Position,good,good,bad,good,bad,bad,bad
+./assets/shooting-video.mov,44,Position,good,good,bad,good,bad,bad,bad
+./assets/shooting-video.mov,45,Position,good,good,bad,good,bad,bad,bad
+./assets/shooting-video.mov,46,Position,good,good,bad,good,bad,bad,bad
+./assets/shooting-video.mov,47,Position,good,good,bad,good,bad,bad,bad
+./assets/shooting-video.mov,48,Position,good,good,bad,good,bad,bad,bad
+./assets/shooting-video.mov,49,Position,good,good,bad,good,bad,bad,bad
+./assets/shooting-video.mov,50,Position,good,good,bad,good,bad,good,bad
+./assets/shooting-video.mov,51,Position,good,good,bad,good,bad,good,bad
+./assets/shooting-video.mov,52,Position,good,good,bad,good,bad,good,bad
+./assets/shooting-video.mov,53,Position,good,good,bad,good,bad,good,bad
+./assets/shooting-video.mov,54,Position,good,good,bad,good,bad,good,bad
+./assets/shooting-video.mov,55,Position,good,good,bad,good,bad,good,bad
+./assets/shooting-video.mov,56,Position,good,good,bad,good,bad,good,bad
+./assets/shooting-video.mov,57,Position,good,good,bad,good,bad,good,bad
+./assets/shooting-video.mov,58,Position,good,good,good,good,bad,good,bad
+./assets/shooting-video.mov,59,Position,good,good,good,good,bad,good,bad
+./assets/shooting-video.mov,60,Position,good,good,good,good,bad,good,bad
+./assets/shooting-video.mov,61,Position,good,good,good,good,bad,good,bad
+./assets/shooting-video.mov,62,Position,good,good,good,good,bad,good,bad
+./assets/shooting-video.mov,63,Position,good,good,good,good,bad,good,bad
+./assets/shooting-video.mov,64,Position,good,good,good,good,bad,good,bad
+./assets/shooting-video.mov,65,Position,good,good,good,good,bad,good,bad
+./assets/shooting-video.mov,66,Position,good,good,good,good,bad,good,good
+./assets/shooting-video.mov,67,Position,good,good,good,good,bad,good,good
+./assets/shooting-video.mov,68,Position,good,good,good,good,bad,good,good
+./assets/shooting-video.mov,69,Position,good,good,good,good,bad,good,good
+./assets/shooting-video.mov,70,Position,good,good,good,good,bad,good,good
+./assets/shooting-video.mov,71,Position,good,good,good,good,bad,good,good
+./assets/shooting-video.mov,72,Position,good,good,good,good,bad,good,good
+./assets/shooting-video.mov,73,Position,good,good,good,good,bad,good,good
+./assets/shooting-video.mov,74,Position,good,good,good,good,good,good,good
+./assets/shooting-video.mov,75,Position,good,good,good,good,good,good,good
+./assets/shooting-video.mov,76,Position,good,good,good,good,good,good,good
+./assets/shooting-video.mov,77,Position,good,good,good,good,good,good,good
+./assets/shooting-video.mov,78,Position,good,good,good,good,good,good,good
+./assets/shooting-video.mov,79,Position,good,good,good,good,good,good,good
+./assets/shooting-video.mov,80,Position,good,good,good,good,good,good,good
+./assets/shooting-video.mov,81,Position,good,good,good,good,good,good,good
+./assets/shooting-video.mov,82,Position,good,good,good,good,good,good,good
+./assets/shooting-video.mov,83,Position,good,good,good,good,good,good,good
+./assets/shooting-video.mov,84,Position,good,good,good,good,good,good,good
+./assets/shooting-video.mov,85,Position,good,good,good,good,good,good,good
+./assets/shooting-video.mov,86,Position,good,good,good,good,good,good,good
+./assets/shooting-video.mov,87,Position,good,good,good,good,good,good,good
+./assets/shooting-video.mov,88,Position,good,good,good,good,good,good,good
+./assets/shooting-video.mov,89,Position,good,good,good,good,good,good,good
+./assets/shooting-video.mov,90,Position,good,good,good,good,good,good,good
+./assets/shooting-video.mov,91,Natural Point of Aim,good,good,good,good,bad,good,good
+./assets/shooting-video.mov,92,Natural Point of Aim,good,good,good,good,bad,good,good
+./assets/shooting-video.mov,93,Natural Point of Aim,good,good,good,good,bad,good,good
+./assets/shooting-video.mov,94,Natural Point of Aim,good,good,good,good,bad,good,good
+./assets/shooting-video.mov,95,Natural Point of Aim,good,good,good,good,bad,good,good
+./assets/shooting-video.mov,96,Natural Point of Aim,good,good,good,good,bad,good,good
+./assets/shooting-video.mov,97,Natural Point of Aim,good,good,good,good,bad,good,good
+./assets/shooting-video.mov,98,Natural Point of Aim,good,good,good,good,bad,good,good
+./assets/shooting-video.mov,99,Natural Point of Aim,good,good,good,good,bad,good,good
+./assets/shooting-video.mov,100,Natural Point of Aim,good,good,good,good,bad,good,good
+./assets/shooting-video.mov,101,Natural Point of Aim,good,good,good,good,bad,good,good
+./assets/shooting-video.mov,102,Natural Point of Aim,good,good,good,good,bad,good,good
+./assets/shooting-video.mov,103,Natural Point of Aim,good,good,good,good,bad,good,good
+./assets/shooting-video.mov,104,Natural Point of Aim,good,good,good,good,bad,good,good
+./assets/shooting-video.mov,105,Natural Point of Aim,good,good,good,good,bad,good,good
+./assets/shooting-video.mov,106,Natural Point of Aim,good,good,good,good,bad,good,good
+./assets/shooting-video.mov,107,Natural Point of Aim,good,good,good,good,bad,good,good
+./assets/shooting-video.mov,108,Natural Point of Aim,good,good,good,good,bad,good,good
+./assets/shooting-video.mov,109,Natural Point of Aim,good,good,good,good,bad,good,good
+./assets/shooting-video.mov,110,Natural Point of Aim,good,good,good,good,bad,good,good
+./assets/shooting-video.mov,111,Natural Point of Aim,good,good,good,good,bad,good,good
+./assets/shooting-video.mov,112,Natural Point of Aim,good,good,good,good,bad,good,good
+./assets/shooting-video.mov,113,Natural Point of Aim,good,good,good,good,bad,good,good
+./assets/shooting-video.mov,114,Natural Point of Aim,good,good,good,good,bad,good,good
+./assets/shooting-video.mov,115,Natural Point of Aim,good,good,good,good,bad,good,good
+./assets/shooting-video.mov,116,Natural Point of Aim,good,good,good,good,bad,good,good
+./assets/shooting-video.mov,117,Natural Point of Aim,good,good,good,good,bad,good,good
+./assets/shooting-video.mov,118,Natural Point of Aim,good,good,good,good,bad,good,good
+./assets/shooting-video.mov,119,Natural Point of Aim,good,good,good,good,bad,good,good
+./assets/shooting-video.mov,120,Natural Point of Aim,good,good,good,good,bad,good,good
+./assets/shooting-video.mov,121,Natural Point of Aim,good,good,good,good,bad,good,good
+./assets/shooting-video.mov,122,Natural Point of Aim,good,good,good,good,bad,good,good
+./assets/shooting-video.mov,123,Natural Point of Aim,good,good,good,good,bad,good,good
+./assets/shooting-video.mov,124,Natural Point of Aim,good,good,good,good,bad,good,good
+./assets/shooting-video.mov,125,Natural Point of Aim,good,good,good,good,bad,good,good
+./assets/shooting-video.mov,126,Natural Point of Aim,good,good,good,good,bad,good,bad
+./assets/shooting-video.mov,127,Natural Point of Aim,good,good,good,good,bad,good,bad
+./assets/shooting-video.mov,128,Natural Point of Aim,good,good,good,good,bad,good,bad
+./assets/shooting-video.mov,129,Natural Point of Aim,good,good,good,good,bad,good,bad
+./assets/shooting-video.mov,130,Natural Point of Aim,good,good,good,good,bad,bad,bad
+./assets/shooting-video.mov,131,Natural Point of Aim,good,good,good,good,bad,bad,bad
+./assets/shooting-video.mov,132,Natural Point of Aim,good,good,good,good,bad,bad,bad
+./assets/shooting-video.mov,133,Natural Point of Aim,good,good,good,good,bad,bad,bad
+./assets/shooting-video.mov,134,Natural Point of Aim,good,good,good,good,bad,bad,bad
+./assets/shooting-video.mov,135,Natural Point of Aim,good,good,good,good,bad,bad,bad
+./assets/shooting-video.mov,136,Natural Point of Aim,good,good,good,good,bad,bad,bad
+./assets/shooting-video.mov,137,Natural Point of Aim,good,good,good,good,bad,bad,bad
+./assets/shooting-video.mov,138,Natural Point of Aim,good,good,good,good,bad,bad,bad
+./assets/shooting-video.mov,139,Natural Point of Aim,good,good,good,good,good,bad,bad
+./assets/shooting-video.mov,140,Natural Point of Aim,good,good,good,good,good,bad,bad
+./assets/shooting-video.mov,141,Natural Point of Aim,good,good,good,good,good,bad,bad
+./assets/shooting-video.mov,142,Natural Point of Aim,good,good,good,good,good,bad,bad
+./assets/shooting-video.mov,143,Natural Point of Aim,good,good,good,good,good,bad,bad
+./assets/shooting-video.mov,144,Natural Point of Aim,good,good,good,good,good,bad,bad
+./assets/shooting-video.mov,145,Natural Point of Aim,good,good,good,good,good,bad,bad
+./assets/shooting-video.mov,146,Natural Point of Aim,good,good,good,good,good,bad,bad
+./assets/shooting-video.mov,147,Natural Point of Aim,good,good,good,good,good,bad,bad
+./assets/shooting-video.mov,148,Natural Point of Aim,good,good,good,good,good,bad,bad
+./assets/shooting-video.mov,149,Natural Point of Aim,good,good,good,good,good,bad,bad
+./assets/shooting-video.mov,150,Natural Point of Aim,good,good,good,good,good,bad,bad
+./assets/shooting-video.mov,151,Natural Point of Aim,good,good,good,good,good,bad,bad
+./assets/shooting-video.mov,152,Natural Point of Aim,good,good,good,good,good,bad,bad
+./assets/shooting-video.mov,153,Natural Point of Aim,good,good,good,good,good,bad,bad
+./assets/shooting-video.mov,154,Natural Point of Aim,good,good,good,good,good,bad,bad
+./assets/shooting-video.mov,155,Natural Point of Aim,good,good,good,good,good,bad,bad
+./assets/shooting-video.mov,156,Natural Point of Aim,good,good,good,good,good,good,bad
+./assets/shooting-video.mov,157,Natural Point of Aim,good,good,good,good,good,good,bad
+./assets/shooting-video.mov,158,Natural Point of Aim,good,good,good,good,good,good,bad
+./assets/shooting-video.mov,159,Natural Point of Aim,good,good,good,good,good,good,bad
+./assets/shooting-video.mov,160,Natural Point of Aim,good,good,good,good,good,good,bad
+./assets/shooting-video.mov,161,Natural Point of Aim,good,good,good,good,good,good,bad
+./assets/shooting-video.mov,162,Natural Point of Aim,good,good,good,good,good,good,bad
+./assets/shooting-video.mov,163,Natural Point of Aim,good,good,good,good,good,good,bad
+./assets/shooting-video.mov,164,Natural Point of Aim,good,good,good,good,good,good,bad
+./assets/shooting-video.mov,165,Natural Point of Aim,good,good,good,good,good,good,bad
+./assets/shooting-video.mov,166,Natural Point of Aim,good,good,good,good,good,good,good
+./assets/shooting-video.mov,167,Natural Point of Aim,good,good,good,good,good,good,good
+./assets/shooting-video.mov,168,Natural Point of Aim,good,good,good,good,good,good,good
+./assets/shooting-video.mov,169,Natural Point of Aim,good,good,good,good,good,good,good
+./assets/shooting-video.mov,170,Natural Point of Aim,good,good,good,good,good,good,good
+./assets/shooting-video.mov,171,Natural Point of Aim,good,good,good,good,good,good,good
+./assets/shooting-video.mov,172,Natural Point of Aim,good,good,good,good,good,good,good
+./assets/shooting-video.mov,173,Natural Point of Aim,good,good,good,good,good,good,good
+./assets/shooting-video.mov,174,Natural Point of Aim,good,good,good,good,good,good,good
+./assets/shooting-video.mov,175,Natural Point of Aim,good,good,good,good,good,good,good
+./assets/shooting-video.mov,176,Natural Point of Aim,good,good,good,good,good,good,good
+./assets/shooting-video.mov,177,Natural Point of Aim,good,good,good,good,good,good,good
+./assets/shooting-video.mov,178,Natural Point of Aim,good,good,good,good,good,good,good
+./assets/shooting-video.mov,179,Natural Point of Aim,good,good,good,good,good,good,good
+./assets/shooting-video.mov,180,Natural Point of Aim,good,good,good,good,good,good,good
+./assets/shooting-video.mov,181,Natural Point of Aim,good,good,good,good,good,good,good
+./assets/shooting-video.mov,182,Natural Point of Aim,good,good,good,good,good,good,good
+./assets/shooting-video.mov,183,Natural Point of Aim,good,good,good,good,good,good,good
+./assets/shooting-video.mov,184,Natural Point of Aim,good,good,good,good,good,good,good
+./assets/shooting-video.mov,185,Natural Point of Aim,good,good,good,good,good,good,good
+./assets/shooting-video.mov,186,Natural Point of Aim,good,good,good,good,good,good,good
+./assets/shooting-video.mov,187,Natural Point of Aim,good,good,good,good,good,good,good
+./assets/shooting-video.mov,188,Natural Point of Aim,good,good,good,good,good,good,good
+./assets/shooting-video.mov,189,Natural Point of Aim,good,good,good,good,good,good,good
+./assets/shooting-video.mov,190,Natural Point of Aim,good,good,good,good,good,good,good
+./assets/shooting-video.mov,191,Natural Point of Aim,good,good,good,good,good,good,good
+./assets/shooting-video.mov,192,Natural Point of Aim,good,good,good,good,good,good,good
+./assets/shooting-video.mov,193,Natural Point of Aim,good,good,good,good,good,good,good
+./assets/shooting-video.mov,194,Natural Point of Aim,good,good,good,good,good,good,good
+./assets/shooting-video.mov,195,Natural Point of Aim,good,good,good,good,good,good,good
+./assets/shooting-video.mov,196,Natural Point of Aim,good,good,good,good,good,good,good
+./assets/shooting-video.mov,197,Natural Point of Aim,good,good,good,good,good,good,good
+./assets/shooting-video.mov,198,Natural Point of Aim,good,good,good,good,good,good,good
+./assets/shooting-video.mov,199,Natural Point of Aim,good,good,good,good,good,good,good
+./assets/shooting-video.mov,200,Natural Point of Aim,good,good,good,good,good,good,good
+./assets/shooting-video.mov,201,Natural Point of Aim,good,good,good,good,good,good,good
+./assets/shooting-video.mov,202,Natural Point of Aim,good,good,good,good,good,good,good
+./assets/shooting-video.mov,203,Natural Point of Aim,good,good,good,good,good,good,good
+./assets/shooting-video.mov,204,Natural Point of Aim,good,good,good,good,good,good,good
+./assets/shooting-video.mov,205,Natural Point of Aim,good,good,good,good,good,good,good
+./assets/shooting-video.mov,206,Natural Point of Aim,good,good,good,good,good,good,good
+./assets/shooting-video.mov,207,Natural Point of Aim,good,good,good,good,good,good,good
+./assets/shooting-video.mov,208,Natural Point of Aim,good,good,good,good,good,good,good
+./assets/shooting-video.mov,209,Natural Point of Aim,good,good,good,good,good,good,good
+./assets/shooting-video.mov,210,Natural Point of Aim,good,good,good,good,good,good,good
+./assets/shooting-video.mov,211,Natural Point of Aim,good,good,good,good,good,good,good
+./assets/shooting-video.mov,212,Natural Point of Aim,good,good,good,good,good,good,good
+./assets/shooting-video.mov,213,Natural Point of Aim,good,good,good,good,good,good,good
+./assets/shooting-video.mov,214,Natural Point of Aim,good,good,good,good,good,good,good
+./assets/shooting-video.mov,215,Natural Point of Aim,good,good,good,good,good,good,good
+./assets/shooting-video.mov,216,Natural Point of Aim,good,good,good,good,good,good,good
+./assets/shooting-video.mov,217,Natural Point of Aim,good,good,good,good,good,good,good
+./assets/shooting-video.mov,218,Natural Point of Aim,good,good,good,good,good,good,good
+./assets/shooting-video.mov,219,Natural Point of Aim,good,good,good,good,good,good,good
+./assets/shooting-video.mov,220,Natural Point of Aim,good,good,good,good,good,good,good
+./assets/shooting-video.mov,221,Natural Point of Aim,good,good,good,good,good,good,good
+./assets/shooting-video.mov,222,Natural Point of Aim,good,good,good,good,good,good,good
+./assets/shooting-video.mov,223,Natural Point of Aim,good,good,good,good,good,good,good
+./assets/shooting-video.mov,224,Natural Point of Aim,good,good,good,good,good,good,good
+./assets/shooting-video.mov,225,Natural Point of Aim,good,good,good,good,good,good,good
+./assets/shooting-video.mov,226,Natural Point of Aim,good,good,good,good,good,good,good
+./assets/shooting-video.mov,227,Natural Point of Aim,good,good,good,good,good,good,good
+./assets/shooting-video.mov,228,Natural Point of Aim,good,good,good,good,good,good,good
+./assets/shooting-video.mov,229,Natural Point of Aim,good,good,good,good,good,good,good
+./assets/shooting-video.mov,230,Natural Point of Aim,good,good,good,good,good,good,good
+./assets/shooting-video.mov,231,Natural Point of Aim,good,good,good,good,good,good,good
+./assets/shooting-video.mov,232,Natural Point of Aim,good,good,good,good,good,good,good
+./assets/shooting-video.mov,233,Natural Point of Aim,good,good,good,good,good,good,good
+./assets/shooting-video.mov,234,Sight Alignment/Sight Picture,good,good,good,good,good,good,good
+./assets/shooting-video.mov,235,Sight Alignment/Sight Picture,good,good,good,good,good,good,good
+./assets/shooting-video.mov,236,Sight Alignment/Sight Picture,good,good,good,good,good,good,good
+./assets/shooting-video.mov,237,Sight Alignment/Sight Picture,good,good,good,good,good,good,good
+./assets/shooting-video.mov,238,Sight Alignment/Sight Picture,good,good,good,good,good,good,good
+./assets/shooting-video.mov,239,Sight Alignment/Sight Picture,good,good,good,good,good,good,good
+./assets/shooting-video.mov,240,Sight Alignment/Sight Picture,good,good,good,good,good,good,good
+./assets/shooting-video.mov,241,Sight Alignment/Sight Picture,good,good,good,good,good,good,good
+./assets/shooting-video.mov,242,Sight Alignment/Sight Picture,good,good,good,good,good,good,good
+./assets/shooting-video.mov,243,Sight Alignment/Sight Picture,good,good,good,good,good,good,good
+./assets/shooting-video.mov,244,Sight Alignment/Sight Picture,good,good,good,good,good,good,good
+./assets/shooting-video.mov,245,Sight Alignment/Sight Picture,good,good,good,good,good,good,good
+./assets/shooting-video.mov,246,Sight Alignment/Sight Picture,good,good,good,good,good,good,good
+./assets/shooting-video.mov,247,Sight Alignment/Sight Picture,good,good,good,good,good,good,good
+./assets/shooting-video.mov,248,Sight Alignment/Sight Picture,good,good,good,good,good,good,good
+./assets/shooting-video.mov,249,Sight Alignment/Sight Picture,good,good,good,good,good,good,good
+./assets/shooting-video.mov,250,Sight Alignment/Sight Picture,good,good,good,good,good,good,good
+./assets/shooting-video.mov,251,Sight Alignment/Sight Picture,good,good,good,good,good,good,good
+./assets/shooting-video.mov,252,Sight Alignment/Sight Picture,good,good,good,good,good,good,good
+./assets/shooting-video.mov,253,Sight Alignment/Sight Picture,good,good,good,good,good,good,good
+./assets/shooting-video.mov,254,Sight Alignment/Sight Picture,good,good,good,good,good,good,good
+./assets/shooting-video.mov,255,Sight Alignment/Sight Picture,good,good,good,good,good,good,good
+./assets/shooting-video.mov,256,Sight Alignment/Sight Picture,good,good,good,good,good,good,good
+./assets/shooting-video.mov,257,Sight Alignment/Sight Picture,good,good,good,good,good,good,good
+./assets/shooting-video.mov,258,Sight Alignment/Sight Picture,good,good,good,good,good,good,good
+./assets/shooting-video.mov,259,Sight Alignment/Sight Picture,good,good,good,good,good,good,good
+./assets/shooting-video.mov,260,Sight Alignment/Sight Picture,good,good,good,good,good,good,good
+./assets/shooting-video.mov,261,Sight Alignment/Sight Picture,good,good,bad,good,good,good,good
+./assets/shooting-video.mov,262,Sight Alignment/Sight Picture,good,good,bad,good,good,good,good
+./assets/shooting-video.mov,263,Sight Alignment/Sight Picture,good,good,bad,good,good,good,good
+./assets/shooting-video.mov,264,Sight Alignment/Sight Picture,good,good,bad,good,good,good,good
+./assets/shooting-video.mov,265,Sight Alignment/Sight Picture,good,good,bad,good,good,good,good
+./assets/shooting-video.mov,266,Sight Alignment/Sight Picture,good,good,bad,good,good,good,good
+./assets/shooting-video.mov,267,Sight Alignment/Sight Picture,good,good,bad,good,good,good,good
+./assets/shooting-video.mov,268,Sight Alignment/Sight Picture,good,good,bad,good,good,good,good
+./assets/shooting-video.mov,269,Sight Alignment/Sight Picture,good,good,bad,good,good,good,good
+./assets/shooting-video.mov,270,Sight Alignment/Sight Picture,good,good,bad,good,good,good,good
+./assets/shooting-video.mov,271,Sight Alignment/Sight Picture,good,bad,bad,good,good,good,good
+./assets/shooting-video.mov,272,Sight Alignment/Sight Picture,good,bad,bad,good,good,good,good
+./assets/shooting-video.mov,273,Sight Alignment/Sight Picture,good,bad,bad,good,good,good,good
+./assets/shooting-video.mov,274,Sight Alignment/Sight Picture,good,bad,bad,good,good,good,good
+./assets/shooting-video.mov,275,Sight Alignment/Sight Picture,good,bad,bad,good,good,good,good
+./assets/shooting-video.mov,276,Sight Alignment/Sight Picture,good,bad,bad,good,good,good,good
+./assets/shooting-video.mov,277,Sight Alignment/Sight Picture,good,bad,bad,good,good,good,good
+./assets/shooting-video.mov,278,Sight Alignment/Sight Picture,good,bad,bad,good,good,good,good
+./assets/shooting-video.mov,279,Sight Alignment/Sight Picture,good,bad,bad,good,good,good,good
+./assets/shooting-video.mov,280,Sight Alignment/Sight Picture,good,bad,bad,good,good,good,good
+./assets/shooting-video.mov,281,Sight Alignment/Sight Picture,good,bad,bad,good,good,good,good
+./assets/shooting-video.mov,282,Sight Alignment/Sight Picture,good,bad,bad,good,good,good,good
+./assets/shooting-video.mov,283,Sight Alignment/Sight Picture,good,bad,bad,good,good,good,good
+./assets/shooting-video.mov,284,Sight Alignment/Sight Picture,good,bad,bad,good,good,good,good
+./assets/shooting-video.mov,285,Sight Alignment/Sight Picture,good,bad,bad,good,good,good,good
+./assets/shooting-video.mov,286,Sight Alignment/Sight Picture,good,bad,bad,good,good,good,good
+./assets/shooting-video.mov,287,Sight Alignment/Sight Picture,good,bad,bad,good,good,good,good
+./assets/shooting-video.mov,288,Sight Alignment/Sight Picture,good,bad,bad,good,good,good,good
+./assets/shooting-video.mov,289,Sight Alignment/Sight Picture,good,bad,bad,good,good,good,good
+./assets/shooting-video.mov,290,Sight Alignment/Sight Picture,good,bad,bad,good,good,good,good
+./assets/shooting-video.mov,291,Sight Alignment/Sight Picture,good,bad,bad,good,good,good,good
+./assets/shooting-video.mov,292,Sight Alignment/Sight Picture,good,bad,bad,good,good,good,good
+./assets/shooting-video.mov,293,Sight Alignment/Sight Picture,good,bad,good,good,good,good,good
+./assets/shooting-video.mov,294,Sight Alignment/Sight Picture,good,bad,good,good,good,good,good
+./assets/shooting-video.mov,295,Sight Alignment/Sight Picture,good,bad,good,good,good,good,good
+./assets/shooting-video.mov,296,Sight Alignment/Sight Picture,good,bad,good,good,good,good,good
+./assets/shooting-video.mov,297,Sight Alignment/Sight Picture,good,bad,good,good,good,good,good
+./assets/shooting-video.mov,298,Sight Alignment/Sight Picture,good,bad,good,good,good,good,good
+./assets/shooting-video.mov,299,Sight Alignment/Sight Picture,good,bad,good,good,good,good,good
+./assets/shooting-video.mov,300,Sight Alignment/Sight Picture,good,bad,good,good,good,good,good
+./assets/shooting-video.mov,301,Sight Alignment/Sight Picture,good,good,good,good,good,good,good
+./assets/shooting-video.mov,302,Sight Alignment/Sight Picture,good,good,good,good,good,good,good
+./assets/shooting-video.mov,303,Sight Alignment/Sight Picture,good,good,good,good,good,good,good
+./assets/shooting-video.mov,304,Sight Alignment/Sight Picture,good,good,good,good,good,good,good
+./assets/shooting-video.mov,305,Sight Alignment/Sight Picture,good,good,good,good,good,good,good
+./assets/shooting-video.mov,306,Sight Alignment/Sight Picture,good,good,good,good,good,good,good
+./assets/shooting-video.mov,307,Sight Alignment/Sight Picture,good,good,good,good,good,good,good
+./assets/shooting-video.mov,308,Sight Alignment/Sight Picture,good,good,good,good,good,good,good
+./assets/shooting-video.mov,309,Sight Alignment/Sight Picture,good,good,good,good,good,good,good
+./assets/shooting-video.mov,310,Sight Alignment/Sight Picture,good,good,good,good,good,good,good
+./assets/shooting-video.mov,311,Sight Alignment/Sight Picture,good,good,good,good,good,good,good
+./assets/shooting-video.mov,312,Sight Alignment/Sight Picture,good,good,good,good,good,good,good
+./assets/shooting-video.mov,313,Sight Alignment/Sight Picture,good,good,good,good,good,good,good
+./assets/shooting-video.mov,314,Sight Alignment/Sight Picture,good,good,good,good,good,good,good
+./assets/shooting-video.mov,315,Sight Alignment/Sight Picture,good,good,good,good,good,good,good
+./assets/shooting-video.mov,316,Sight Alignment/Sight Picture,good,good,good,good,good,good,good
+./assets/shooting-video.mov,317,Sight Alignment/Sight Picture,good,good,good,good,good,good,good
+./assets/shooting-video.mov,318,Sight Alignment/Sight Picture,good,good,good,good,good,good,good
+./assets/shooting-video.mov,319,Sight Alignment/Sight Picture,good,good,good,good,good,good,good
+./assets/shooting-video.mov,320,Sight Alignment/Sight Picture,good,good,good,good,good,good,good
+./assets/shooting-video.mov,321,Sight Alignment/Sight Picture,good,good,good,good,good,good,good
+./assets/shooting-video.mov,322,Sight Alignment/Sight Picture,good,good,good,good,good,good,good
+./assets/shooting-video.mov,323,Sight Alignment/Sight Picture,good,good,good,good,good,good,good
+./assets/shooting-video.mov,324,Sight Alignment/Sight Picture,good,good,good,good,good,good,good
+./assets/shooting-video.mov,325,Sight Alignment/Sight Picture,good,good,good,good,good,good,good
+./assets/shooting-video.mov,326,Sight Alignment/Sight Picture,good,good,good,good,good,good,good
+./assets/shooting-video.mov,327,Sight Alignment/Sight Picture,good,good,good,good,good,good,good
+./assets/shooting-video.mov,328,Sight Alignment/Sight Picture,good,good,good,good,good,good,good
+./assets/shooting-video.mov,329,Sight Alignment/Sight Picture,good,good,good,good,good,good,good
+./assets/shooting-video.mov,330,Sight Alignment/Sight Picture,good,good,good,good,good,good,good
+./assets/shooting-video.mov,331,Sight Alignment/Sight Picture,good,good,good,good,good,good,good
+./assets/shooting-video.mov,332,Sight Alignment/Sight Picture,good,good,good,good,good,good,good
+./assets/shooting-video.mov,333,Sight Alignment/Sight Picture,good,good,good,good,good,good,good
+./assets/shooting-video.mov,334,Sight Alignment/Sight Picture,good,good,good,good,good,good,good
+./assets/shooting-video.mov,335,Sight Alignment/Sight Picture,good,good,good,good,good,good,good
+./assets/shooting-video.mov,336,Sight Alignment/Sight Picture,good,good,good,good,good,good,good
+./assets/shooting-video.mov,337,Sight Alignment/Sight Picture,good,good,good,good,good,good,good
+./assets/shooting-video.mov,338,Sight Alignment/Sight Picture,good,good,good,good,good,good,good
+./assets/shooting-video.mov,339,Sight Alignment/Sight Picture,good,good,good,good,good,good,good
+./assets/shooting-video.mov,340,Sight Alignment/Sight Picture,good,good,good,good,good,good,good
+./assets/shooting-video.mov,341,Sight Alignment/Sight Picture,good,good,good,good,good,good,good
+./assets/shooting-video.mov,342,Sight Alignment/Sight Picture,good,good,good,good,good,good,good
+./assets/shooting-video.mov,343,Sight Alignment/Sight Picture,good,good,good,good,good,good,good
+./assets/shooting-video.mov,344,Sight Alignment/Sight Picture,good,good,good,good,good,good,good
+./assets/shooting-video.mov,345,Sight Alignment/Sight Picture,good,good,good,good,good,good,good
+./assets/shooting-video.mov,346,Sight Alignment/Sight Picture,good,good,good,good,good,good,good
+./assets/shooting-video.mov,347,Sight Alignment/Sight Picture,good,good,good,good,good,good,good
+./assets/shooting-video.mov,348,Sight Alignment/Sight Picture,good,good,good,good,good,good,good
+./assets/shooting-video.mov,349,Sight Alignment/Sight Picture,good,good,good,good,good,good,good
+./assets/shooting-video.mov,350,Sight Alignment/Sight Picture,good,good,good,good,good,good,good
+./assets/shooting-video.mov,351,Sight Alignment/Sight Picture,good,good,good,good,good,good,good
+./assets/shooting-video.mov,352,Sight Alignment/Sight Picture,good,good,good,good,good,good,good
+./assets/shooting-video.mov,353,Sight Alignment/Sight Picture,good,good,good,good,good,good,good
+./assets/shooting-video.mov,354,Sight Alignment/Sight Picture,good,good,good,good,good,good,good
+./assets/shooting-video.mov,355,Sight Alignment/Sight Picture,good,good,good,good,good,good,good
+./assets/shooting-video.mov,356,Sight Alignment/Sight Picture,good,good,good,good,good,good,good
+./assets/shooting-video.mov,357,Sight Alignment/Sight Picture,good,good,good,good,good,good,good
+./assets/shooting-video.mov,358,Sight Alignment/Sight Picture,good,good,good,good,good,good,good
+./assets/shooting-video.mov,359,Sight Alignment/Sight Picture,good,good,good,good,good,good,good
+./assets/shooting-video.mov,360,Sight Alignment/Sight Picture,good,good,good,good,good,good,good
+./assets/shooting-video.mov,361,Sight Alignment/Sight Picture,good,good,good,good,good,good,good
+./assets/shooting-video.mov,362,Sight Alignment/Sight Picture,good,good,good,good,good,good,good
+./assets/shooting-video.mov,363,Sight Alignment/Sight Picture,good,good,good,good,good,good,good
+./assets/shooting-video.mov,364,Sight Alignment/Sight Picture,good,good,good,good,good,good,good
+./assets/shooting-video.mov,365,Sight Alignment/Sight Picture,good,good,good,good,good,good,good
+./assets/shooting-video.mov,366,Sight Alignment/Sight Picture,good,good,good,good,good,good,good
+./assets/shooting-video.mov,367,Sight Alignment/Sight Picture,good,good,good,good,good,good,good
+./assets/shooting-video.mov,368,Sight Alignment/Sight Picture,good,good,good,good,good,good,good
+./assets/shooting-video.mov,369,Hold,good,good,good,good,good,good,good
+./assets/shooting-video.mov,370,Hold,good,good,good,good,good,good,good
+./assets/shooting-video.mov,371,Hold,good,good,good,good,good,good,good
+./assets/shooting-video.mov,372,Hold,good,good,good,good,good,good,good
+./assets/shooting-video.mov,373,Hold,good,good,good,good,good,good,good
+./assets/shooting-video.mov,374,Hold,good,good,good,good,good,good,good
+./assets/shooting-video.mov,375,Hold,good,good,good,good,good,good,good
+./assets/shooting-video.mov,376,Hold,good,good,good,good,good,good,good
+./assets/shooting-video.mov,377,Hold,good,good,good,good,good,good,good
+./assets/shooting-video.mov,378,Hold,good,good,good,good,good,good,good
+./assets/shooting-video.mov,379,Hold,good,good,good,good,good,good,good
+./assets/shooting-video.mov,380,Hold,good,good,good,good,good,good,good
+./assets/shooting-video.mov,381,Hold,good,good,good,good,good,good,good
+./assets/shooting-video.mov,382,Hold,good,good,good,good,good,good,good
+./assets/shooting-video.mov,383,Hold,good,good,good,good,good,good,good
+./assets/shooting-video.mov,384,Hold,good,good,good,good,good,good,good
+./assets/shooting-video.mov,385,Hold,good,good,good,good,good,good,good
+./assets/shooting-video.mov,386,Hold,good,good,good,good,good,good,good
+./assets/shooting-video.mov,387,Hold,good,good,good,good,good,good,bad
+./assets/shooting-video.mov,388,Hold,good,good,good,good,good,good,bad
+./assets/shooting-video.mov,389,Hold,good,good,good,good,good,good,bad
+./assets/shooting-video.mov,390,Hold,good,good,good,good,good,good,bad
+./assets/shooting-video.mov,391,Hold,good,good,good,good,good,good,bad
+./assets/shooting-video.mov,392,Hold,good,good,good,good,good,good,bad
+./assets/shooting-video.mov,393,Hold,good,good,good,good,good,good,bad
+./assets/shooting-video.mov,394,Hold,good,good,good,good,good,good,bad
+./assets/shooting-video.mov,395,Hold,good,good,good,good,good,good,bad
+./assets/shooting-video.mov,396,Hold,good,good,good,good,good,good,bad
+./assets/shooting-video.mov,397,Hold,good,good,good,good,good,good,bad
+./assets/shooting-video.mov,398,Hold,good,good,good,good,good,good,bad
+./assets/shooting-video.mov,399,Hold,good,good,good,good,good,good,bad
+./assets/shooting-video.mov,400,Hold,good,good,good,good,good,bad,bad
+./assets/shooting-video.mov,401,Hold,good,good,good,good,good,bad,bad
+./assets/shooting-video.mov,402,Hold,good,good,good,good,good,bad,bad
+./assets/shooting-video.mov,403,Hold,good,good,good,good,good,bad,bad
+./assets/shooting-video.mov,404,Hold,good,good,good,good,good,bad,bad
+./assets/shooting-video.mov,405,Hold,good,good,good,good,good,bad,bad
+./assets/shooting-video.mov,406,Hold,good,good,good,good,good,bad,bad
+./assets/shooting-video.mov,407,Hold,good,good,good,good,good,bad,bad
+./assets/shooting-video.mov,408,Hold,good,good,good,good,good,bad,bad
+./assets/shooting-video.mov,409,Hold,good,good,good,good,good,bad,bad
+./assets/shooting-video.mov,410,Hold,good,good,good,good,good,bad,bad
+./assets/shooting-video.mov,411,Hold,good,good,good,good,good,bad,bad
+./assets/shooting-video.mov,412,Hold,good,good,good,good,good,bad,bad
+./assets/shooting-video.mov,413,Hold,good,good,good,good,good,bad,bad
+./assets/shooting-video.mov,414,Hold,good,good,good,good,good,bad,bad
+./assets/shooting-video.mov,415,Hold,good,good,good,good,bad,bad,bad
+./assets/shooting-video.mov,416,Hold,good,good,good,good,bad,bad,bad
+./assets/shooting-video.mov,417,Hold,good,good,good,good,bad,bad,bad
+./assets/shooting-video.mov,418,Hold,good,good,good,good,bad,bad,bad
+./assets/shooting-video.mov,419,Hold,good,good,good,good,bad,bad,bad
+./assets/shooting-video.mov,420,Hold,good,good,good,good,bad,bad,bad
+./assets/shooting-video.mov,421,Hold,good,good,good,good,bad,bad,bad
+./assets/shooting-video.mov,422,Hold,good,good,good,good,bad,bad,bad
+./assets/shooting-video.mov,423,Hold,good,good,good,good,bad,bad,bad
+./assets/shooting-video.mov,424,Hold,good,good,good,bad,bad,bad,bad
+./assets/shooting-video.mov,425,Hold,good,good,good,bad,bad,bad,bad
+./assets/shooting-video.mov,426,Hold,good,good,good,bad,bad,bad,bad
+./assets/shooting-video.mov,427,Hold,good,good,good,bad,bad,bad,bad
+./assets/shooting-video.mov,428,Hold,good,good,good,bad,bad,bad,bad
+./assets/shooting-video.mov,429,Hold,good,good,good,bad,bad,bad,bad
+./assets/shooting-video.mov,430,Hold,good,good,good,bad,bad,bad,bad
+./assets/shooting-video.mov,431,Hold,good,good,good,bad,bad,bad,bad
+./assets/shooting-video.mov,432,Hold,good,good,good,bad,bad,bad,bad
+./assets/shooting-video.mov,433,Hold,good,good,good,bad,bad,bad,bad
+./assets/shooting-video.mov,434,Hold,good,good,good,bad,bad,bad,bad
+./assets/shooting-video.mov,435,Hold,good,good,good,bad,bad,bad,bad
+./assets/shooting-video.mov,436,Hold,good,good,good,bad,bad,bad,bad
+./assets/shooting-video.mov,437,Hold,good,good,good,bad,bad,bad,bad
+./assets/shooting-video.mov,438,Hold,good,good,good,bad,bad,bad,bad
+./assets/shooting-video.mov,439,Hold,good,good,good,bad,bad,bad,bad
+./assets/shooting-video.mov,440,Hold,good,good,good,bad,bad,bad,bad
+./assets/shooting-video.mov,441,Hold,good,good,good,bad,bad,bad,bad
+./assets/shooting-video.mov,442,Hold,good,good,good,bad,bad,bad,bad
+./assets/shooting-video.mov,443,Hold,good,good,good,bad,bad,bad,bad
+./assets/shooting-video.mov,444,Hold,good,good,good,good,bad,bad,bad
+./assets/shooting-video.mov,445,Hold,good,good,good,good,bad,bad,bad
+./assets/shooting-video.mov,446,Hold,good,good,good,good,bad,bad,bad
+./assets/shooting-video.mov,447,Hold,good,good,good,good,bad,bad,bad
+./assets/shooting-video.mov,448,Hold,good,good,good,good,bad,bad,bad
+./assets/shooting-video.mov,449,Hold,good,good,good,good,bad,bad,bad
+./assets/shooting-video.mov,450,Hold,good,good,good,good,bad,bad,bad
+./assets/shooting-video.mov,451,Hold,good,good,good,good,bad,bad,bad
+./assets/shooting-video.mov,452,Hold,good,good,good,good,bad,bad,bad
+./assets/shooting-video.mov,453,Hold,good,good,good,good,good,bad,bad
+./assets/shooting-video.mov,454,Hold,good,good,good,good,good,bad,bad
+./assets/shooting-video.mov,455,Hold,good,good,good,good,good,bad,bad
+./assets/shooting-video.mov,456,Hold,good,good,good,good,good,bad,bad
+./assets/shooting-video.mov,457,Hold,good,good,good,good,good,bad,bad
+./assets/shooting-video.mov,458,Hold,good,good,good,good,good,bad,bad
+./assets/shooting-video.mov,459,Hold,good,good,good,good,good,bad,bad
+./assets/shooting-video.mov,460,Hold,good,good,good,good,good,bad,bad
+./assets/shooting-video.mov,461,Hold,good,good,good,good,good,bad,bad
+./assets/shooting-video.mov,462,Hold,good,good,good,good,good,good,bad
+./assets/shooting-video.mov,463,Hold,good,good,good,good,good,good,bad
+./assets/shooting-video.mov,464,Hold,good,good,good,good,good,good,bad
+./assets/shooting-video.mov,465,Hold,good,good,good,good,good,good,bad
+./assets/shooting-video.mov,466,Hold,good,good,good,good,good,good,bad
+./assets/shooting-video.mov,467,Hold,good,good,good,good,good,good,bad
+./assets/shooting-video.mov,468,Hold,good,good,good,good,good,good,bad
+./assets/shooting-video.mov,469,Hold,good,good,good,good,good,good,bad
+./assets/shooting-video.mov,470,Hold,good,good,good,good,good,good,bad
+./assets/shooting-video.mov,471,Hold,good,good,good,good,good,good,good
+./assets/shooting-video.mov,472,Hold,good,good,good,good,good,good,good
+./assets/shooting-video.mov,473,Hold,good,good,good,good,good,good,good
+./assets/shooting-video.mov,474,Hold,good,good,good,good,good,good,good
+./assets/shooting-video.mov,475,Hold,good,good,good,good,good,good,good
+./assets/shooting-video.mov,476,Hold,good,good,good,good,good,good,good
+./assets/shooting-video.mov,477,Hold,good,good,good,good,good,good,good
+./assets/shooting-video.mov,478,Hold,good,good,good,good,good,good,good
+./assets/shooting-video.mov,479,Hold,good,good,good,good,good,good,good
+./assets/shooting-video.mov,480,Hold,good,good,good,good,good,good,good
+./assets/shooting-video.mov,481,Hold,good,good,good,good,good,good,good
+./assets/shooting-video.mov,482,Hold,good,good,good,good,good,good,good
+./assets/shooting-video.mov,483,Hold,good,good,good,good,good,good,good
+./assets/shooting-video.mov,484,Hold,good,good,good,good,good,good,good
+./assets/shooting-video.mov,485,Hold,good,good,good,good,good,good,good
+./assets/shooting-video.mov,486,Hold,good,good,good,good,good,good,good
+./assets/shooting-video.mov,487,Hold,good,good,good,good,good,good,good
+./assets/shooting-video.mov,488,Hold,good,good,good,good,good,good,good
+./assets/shooting-video.mov,489,Hold,good,good,good,good,good,good,good
+./assets/shooting-video.mov,490,Hold,good,good,good,good,good,good,good
+./assets/shooting-video.mov,491,Hold,good,good,good,good,good,good,good
+./assets/shooting-video.mov,492,Hold,good,good,good,good,good,good,good
+./assets/shooting-video.mov,493,Hold,good,good,good,good,good,good,good
+./assets/shooting-video.mov,494,Hold,good,good,good,good,good,good,good
+./assets/shooting-video.mov,495,Hold,good,good,good,good,good,good,good
+./assets/shooting-video.mov,496,Hold,good,good,good,good,good,good,good
+./assets/shooting-video.mov,497,Hold,good,good,good,good,good,good,good
+./assets/shooting-video.mov,498,Hold,good,good,good,good,good,good,good
+./assets/shooting-video.mov,499,Hold,good,good,good,good,good,good,good
+./assets/shooting-video.mov,500,Hold,good,good,good,good,good,good,good
+./assets/shooting-video.mov,501,Hold,good,good,good,good,good,good,good
+./assets/shooting-video.mov,502,Hold,good,good,good,good,good,good,good
+./assets/shooting-video.mov,503,Hold,good,good,good,good,good,good,good
+./assets/shooting-video.mov,504,Hold,good,good,good,good,good,good,good
+./assets/shooting-video.mov,505,Hold,good,good,good,good,good,good,good
+./assets/shooting-video.mov,506,Hold,good,good,good,good,good,good,good
+./assets/shooting-video.mov,507,Hold,good,good,good,good,good,good,good
+./assets/shooting-video.mov,508,Hold,good,good,good,good,good,good,good
+./assets/shooting-video.mov,509,Hold,good,good,good,good,good,good,good
+./assets/shooting-video.mov,510,Hold,good,good,good,good,good,good,good
+./assets/shooting-video.mov,511,Hold,good,good,good,good,good,good,good
+./assets/shooting-video.mov,512,Hold,good,good,good,good,good,good,good
+./assets/shooting-video.mov,513,Hold,good,good,good,good,good,good,good
+./assets/shooting-video.mov,514,Hold,good,good,good,good,good,good,good
+./assets/shooting-video.mov,515,Hold,good,good,good,good,good,good,good
+./assets/shooting-video.mov,516,Hold,good,good,good,good,good,good,good
+./assets/shooting-video.mov,517,Hold,good,good,good,good,good,good,good
+./assets/shooting-video.mov,518,Hold,good,good,good,good,good,good,good
+./assets/shooting-video.mov,519,Hold,good,good,good,good,good,good,good
+./assets/shooting-video.mov,520,Hold,good,good,good,good,good,good,good
+./assets/shooting-video.mov,521,Hold,good,good,good,good,good,good,good
+./assets/shooting-video.mov,522,Hold,good,good,good,good,good,good,good
+./assets/shooting-video.mov,523,Hold,good,good,good,good,good,good,good
+./assets/shooting-video.mov,524,Hold,good,good,good,good,good,good,good
+./assets/shooting-video.mov,525,Hold,good,good,good,good,good,good,good
+./assets/shooting-video.mov,526,Hold,good,good,good,good,good,good,good
+./assets/shooting-video.mov,527,Hold,good,good,good,good,good,good,good
+./assets/shooting-video.mov,528,Hold,good,good,good,good,good,good,good
+./assets/shooting-video.mov,529,Hold,good,good,good,good,good,good,good
+./assets/shooting-video.mov,530,Hold,good,good,good,good,good,good,good
+./assets/shooting-video.mov,531,Hold,good,good,good,good,good,good,good
+./assets/shooting-video.mov,532,Hold,good,good,good,good,good,good,good
+./assets/shooting-video.mov,533,Hold,good,good,good,good,good,good,good
+./assets/shooting-video.mov,534,Hold,good,good,good,good,good,good,good
+./assets/shooting-video.mov,535,Hold,good,good,good,good,good,good,good
+./assets/shooting-video.mov,536,Hold,good,good,good,good,good,good,good
+./assets/shooting-video.mov,537,Hold,good,good,good,good,good,good,good
+./assets/shooting-video.mov,538,Hold,good,good,good,good,good,good,good
+./assets/shooting-video.mov,539,Hold,good,good,good,good,good,good,good
+./assets/shooting-video.mov,540,Hold,good,good,good,good,good,good,good
+./assets/shooting-video.mov,541,Hold,good,good,good,good,good,good,good
+./assets/shooting-video.mov,542,Hold,good,good,good,good,good,good,good
+./assets/shooting-video.mov,543,Hold,good,good,good,good,good,good,good
+./assets/shooting-video.mov,544,Hold,good,good,good,good,good,good,good
+./assets/shooting-video.mov,545,Hold,good,good,good,good,good,good,good
+./assets/shooting-video.mov,546,Hold,good,good,good,good,good,good,good
+./assets/shooting-video.mov,547,Hold,good,good,good,good,good,good,good
+./assets/shooting-video.mov,548,Hold,good,good,good,good,good,good,good
+./assets/shooting-video.mov,549,Refine Aim,good,good,good,good,good,good,good
+./assets/shooting-video.mov,550,Refine Aim,good,good,good,good,good,good,good
+./assets/shooting-video.mov,551,Refine Aim,good,good,good,good,good,good,good
+./assets/shooting-video.mov,552,Refine Aim,good,good,good,good,good,good,good
+./assets/shooting-video.mov,553,Refine Aim,good,good,good,good,good,good,good
+./assets/shooting-video.mov,554,Refine Aim,good,good,good,good,good,good,good
+./assets/shooting-video.mov,555,Refine Aim,good,good,good,good,good,good,good
+./assets/shooting-video.mov,556,Refine Aim,good,good,good,good,good,good,good
+./assets/shooting-video.mov,557,Refine Aim,good,good,good,good,good,good,good
+./assets/shooting-video.mov,558,Refine Aim,good,good,good,good,good,good,good
+./assets/shooting-video.mov,559,Refine Aim,good,good,good,good,good,good,good
+./assets/shooting-video.mov,560,Refine Aim,good,good,good,good,good,good,good
+./assets/shooting-video.mov,561,Refine Aim,good,good,good,good,good,good,good
+./assets/shooting-video.mov,562,Refine Aim,good,good,good,good,good,good,good
+./assets/shooting-video.mov,563,Refine Aim,good,good,good,good,good,good,good
+./assets/shooting-video.mov,564,Refine Aim,good,good,good,good,good,good,good
+./assets/shooting-video.mov,565,Refine Aim,good,good,good,good,good,good,good
+./assets/shooting-video.mov,566,Refine Aim,good,good,good,good,good,good,good
+./assets/shooting-video.mov,567,Refine Aim,good,good,good,good,good,good,good
+./assets/shooting-video.mov,568,Refine Aim,good,good,good,good,good,good,good
+./assets/shooting-video.mov,569,Refine Aim,good,good,good,good,good,good,good
+./assets/shooting-video.mov,570,Refine Aim,good,good,good,good,good,good,good
+./assets/shooting-video.mov,571,Refine Aim,good,good,good,good,good,good,good
+./assets/shooting-video.mov,572,Refine Aim,good,good,good,good,good,good,good
+./assets/shooting-video.mov,573,Refine Aim,good,good,good,good,good,good,good
+./assets/shooting-video.mov,574,Refine Aim,good,good,good,good,good,good,good
+./assets/shooting-video.mov,575,Refine Aim,good,good,good,good,good,good,good
+./assets/shooting-video.mov,576,Refine Aim,good,good,good,good,good,bad,good
+./assets/shooting-video.mov,577,Refine Aim,good,good,good,good,good,bad,good
+./assets/shooting-video.mov,578,Refine Aim,good,good,good,good,good,bad,good
+./assets/shooting-video.mov,579,Refine Aim,good,good,good,good,good,bad,good
+./assets/shooting-video.mov,580,Refine Aim,good,good,good,good,good,bad,good
+./assets/shooting-video.mov,581,Refine Aim,good,good,good,good,good,bad,good
+./assets/shooting-video.mov,582,Refine Aim,good,good,good,good,good,bad,good
+./assets/shooting-video.mov,583,Refine Aim,good,good,good,good,good,bad,good
+./assets/shooting-video.mov,584,Refine Aim,good,good,good,good,good,bad,good
+./assets/shooting-video.mov,585,Refine Aim,good,good,good,good,bad,bad,good
+./assets/shooting-video.mov,586,Refine Aim,good,good,good,good,bad,bad,good
+./assets/shooting-video.mov,587,Refine Aim,good,good,good,good,bad,bad,good
+./assets/shooting-video.mov,588,Refine Aim,good,good,good,good,bad,bad,good
+./assets/shooting-video.mov,589,Refine Aim,good,good,good,good,bad,bad,good
+./assets/shooting-video.mov,590,Refine Aim,good,good,good,good,bad,bad,good
+./assets/shooting-video.mov,591,Refine Aim,good,good,good,good,bad,bad,good
+./assets/shooting-video.mov,592,Refine Aim,good,good,good,good,bad,bad,good
+./assets/shooting-video.mov,593,Refine Aim,good,good,good,good,bad,bad,good
+./assets/shooting-video.mov,594,Refine Aim,good,good,good,bad,bad,bad,good
+./assets/shooting-video.mov,595,Refine Aim,good,good,good,bad,bad,bad,good
+./assets/shooting-video.mov,596,Refine Aim,good,good,good,bad,bad,bad,good
+./assets/shooting-video.mov,597,Refine Aim,good,good,good,bad,bad,bad,good
+./assets/shooting-video.mov,598,Refine Aim,good,good,good,bad,bad,bad,good
+./assets/shooting-video.mov,599,Refine Aim,good,good,good,bad,bad,bad,good
+./assets/shooting-video.mov,600,Refine Aim,good,good,good,bad,bad,bad,good
+./assets/shooting-video.mov,601,Refine Aim,good,good,good,bad,bad,bad,good
+./assets/shooting-video.mov,602,Refine Aim,good,good,good,bad,bad,bad,good
+./assets/shooting-video.mov,603,Refine Aim,good,good,bad,bad,bad,bad,good
+./assets/shooting-video.mov,604,Refine Aim,good,good,bad,bad,bad,bad,good
+./assets/shooting-video.mov,605,Refine Aim,good,good,bad,bad,bad,bad,good
+./assets/shooting-video.mov,606,Refine Aim,good,good,bad,bad,bad,bad,good
+./assets/shooting-video.mov,607,Refine Aim,good,good,bad,bad,bad,bad,good
+./assets/shooting-video.mov,608,Refine Aim,good,good,bad,bad,bad,bad,good
+./assets/shooting-video.mov,609,Refine Aim,good,good,bad,bad,bad,bad,good
+./assets/shooting-video.mov,610,Refine Aim,good,good,bad,bad,bad,bad,good
+./assets/shooting-video.mov,611,Refine Aim,good,good,bad,bad,bad,bad,good
+./assets/shooting-video.mov,612,Refine Aim,good,good,bad,bad,bad,bad,bad
+./assets/shooting-video.mov,613,Refine Aim,good,good,bad,bad,bad,bad,bad
+./assets/shooting-video.mov,614,Refine Aim,good,good,bad,bad,bad,bad,bad
+./assets/shooting-video.mov,615,Refine Aim,good,good,bad,bad,bad,bad,bad
+./assets/shooting-video.mov,616,Refine Aim,good,good,bad,bad,bad,bad,bad
+./assets/shooting-video.mov,617,Refine Aim,good,good,bad,bad,bad,bad,bad
+./assets/shooting-video.mov,618,Refine Aim,good,good,bad,bad,bad,bad,bad
+./assets/shooting-video.mov,619,Refine Aim,good,good,bad,bad,bad,bad,bad
+./assets/shooting-video.mov,620,Refine Aim,good,good,bad,bad,bad,bad,bad
+./assets/shooting-video.mov,621,Refine Aim,good,good,bad,bad,bad,good,bad
+./assets/shooting-video.mov,622,Refine Aim,good,good,bad,bad,bad,good,bad
+./assets/shooting-video.mov,623,Refine Aim,good,good,bad,bad,bad,good,bad
+./assets/shooting-video.mov,624,Refine Aim,good,good,bad,bad,bad,good,bad
+./assets/shooting-video.mov,625,Refine Aim,good,good,bad,bad,bad,good,bad
+./assets/shooting-video.mov,626,Refine Aim,good,good,bad,bad,bad,good,bad
+./assets/shooting-video.mov,627,Refine Aim,good,good,bad,bad,bad,good,bad
+./assets/shooting-video.mov,628,Refine Aim,good,good,bad,bad,bad,good,bad
+./assets/shooting-video.mov,629,Refine Aim,good,good,bad,bad,bad,good,bad
+./assets/shooting-video.mov,630,Refine Aim,good,good,good,bad,good,good,bad
+./assets/shooting-video.mov,631,Refine Aim,good,good,good,bad,good,good,bad
+./assets/shooting-video.mov,632,Refine Aim,good,good,good,bad,good,good,bad
+./assets/shooting-video.mov,633,Refine Aim,good,good,good,bad,good,good,bad
+./assets/shooting-video.mov,634,Refine Aim,good,good,good,bad,good,good,bad
+./assets/shooting-video.mov,635,Refine Aim,good,good,good,bad,good,good,bad
+./assets/shooting-video.mov,636,Refine Aim,good,good,good,bad,good,good,bad
+./assets/shooting-video.mov,637,Refine Aim,good,good,good,bad,good,good,bad
+./assets/shooting-video.mov,638,Refine Aim,good,good,good,bad,good,good,bad
+./assets/shooting-video.mov,639,Refine Aim,good,good,good,good,good,good,bad
+./assets/shooting-video.mov,640,Refine Aim,good,good,good,good,good,good,bad
+./assets/shooting-video.mov,641,Refine Aim,good,good,good,good,good,good,bad
+./assets/shooting-video.mov,642,Refine Aim,good,good,good,good,good,good,bad
+./assets/shooting-video.mov,643,Refine Aim,good,good,good,good,good,good,bad
+./assets/shooting-video.mov,644,Refine Aim,good,good,good,good,good,good,bad
+./assets/shooting-video.mov,645,Refine Aim,good,good,good,good,good,good,bad
+./assets/shooting-video.mov,646,Refine Aim,good,good,good,good,good,good,bad
+./assets/shooting-video.mov,647,Refine Aim,good,good,good,good,good,good,bad
+./assets/shooting-video.mov,648,Refine Aim,good,good,good,good,good,good,good
+./assets/shooting-video.mov,649,Refine Aim,good,good,good,good,good,good,good
+./assets/shooting-video.mov,650,Refine Aim,good,good,good,good,good,good,good
+./assets/shooting-video.mov,651,Refine Aim,good,good,good,good,good,good,good
+./assets/shooting-video.mov,652,Refine Aim,good,good,good,good,good,good,good
+./assets/shooting-video.mov,653,Refine Aim,good,good,good,good,good,good,good
+./assets/shooting-video.mov,654,Refine Aim,good,good,good,good,good,good,good
+./assets/shooting-video.mov,655,Refine Aim,good,good,good,good,good,good,good
+./assets/shooting-video.mov,656,Refine Aim,good,good,good,good,good,good,good
+./assets/shooting-video.mov,657,Refine Aim,good,good,good,good,good,good,good
+./assets/shooting-video.mov,658,Refine Aim,good,good,good,good,good,good,good
+./assets/shooting-video.mov,659,Refine Aim,good,good,good,good,good,good,good
+./assets/shooting-video.mov,660,Refine Aim,good,good,good,good,good,good,good
+./assets/shooting-video.mov,661,Refine Aim,good,good,good,good,good,good,good
+./assets/shooting-video.mov,662,Refine Aim,good,good,good,good,good,good,good
+./assets/shooting-video.mov,663,Refine Aim,good,good,good,good,good,good,good
+./assets/shooting-video.mov,664,Refine Aim,good,good,good,good,good,good,good
+./assets/shooting-video.mov,665,Refine Aim,good,good,good,good,good,good,good
+./assets/shooting-video.mov,666,Refine Aim,good,good,good,good,good,good,good
+./assets/shooting-video.mov,667,Refine Aim,good,good,good,good,good,good,good
+./assets/shooting-video.mov,668,Refine Aim,good,good,good,good,good,good,good
+./assets/shooting-video.mov,669,Refine Aim,good,good,good,good,good,good,good
+./assets/shooting-video.mov,670,Refine Aim,good,good,good,good,good,good,good
+./assets/shooting-video.mov,671,Refine Aim,good,good,good,good,good,good,good
+./assets/shooting-video.mov,672,Refine Aim,good,good,good,good,good,good,good
+./assets/shooting-video.mov,673,Refine Aim,good,good,good,good,good,good,good
+./assets/shooting-video.mov,674,Refine Aim,good,good,good,good,good,good,good
+./assets/shooting-video.mov,675,Refine Aim,good,good,good,good,good,good,good
+./assets/shooting-video.mov,676,Refine Aim,good,good,good,good,good,good,good
+./assets/shooting-video.mov,677,Refine Aim,good,good,good,good,good,good,good
+./assets/shooting-video.mov,678,Refine Aim,good,good,good,good,good,good,good
+./assets/shooting-video.mov,679,Refine Aim,good,good,good,good,good,good,good
+./assets/shooting-video.mov,680,Refine Aim,good,good,good,good,good,good,good
+./assets/shooting-video.mov,681,Refine Aim,good,good,good,good,good,good,good
+./assets/shooting-video.mov,682,Refine Aim,good,good,good,good,good,good,good
+./assets/shooting-video.mov,683,Refine Aim,good,good,good,good,good,good,good
+./assets/shooting-video.mov,684,Refine Aim,good,good,good,good,good,good,good
+./assets/shooting-video.mov,685,Refine Aim,good,good,good,good,good,good,good
+./assets/shooting-video.mov,686,Refine Aim,good,good,good,good,good,good,good
+./assets/shooting-video.mov,687,Refine Aim,good,good,good,good,good,good,good
+./assets/shooting-video.mov,688,Refine Aim,good,good,good,good,good,good,good
+./assets/shooting-video.mov,689,Refine Aim,good,good,good,good,good,good,good
+./assets/shooting-video.mov,690,Refine Aim,good,good,good,good,good,good,good
+./assets/shooting-video.mov,691,Refine Aim,good,good,good,good,good,good,good
+./assets/shooting-video.mov,692,Refine Aim,good,good,good,good,good,good,good
+./assets/shooting-video.mov,693,Refine Aim,good,good,good,good,good,good,good
+./assets/shooting-video.mov,694,Refine Aim,good,good,good,good,good,good,good
+./assets/shooting-video.mov,695,Refine Aim,good,good,good,good,good,good,good
+./assets/shooting-video.mov,696,Refine Aim,good,good,good,good,good,good,good
+./assets/shooting-video.mov,697,Refine Aim,good,good,good,good,good,good,good
+./assets/shooting-video.mov,698,Refine Aim,good,good,good,good,good,good,good
+./assets/shooting-video.mov,699,Refine Aim,good,good,good,good,good,good,good
+./assets/shooting-video.mov,700,Refine Aim,good,good,good,good,good,good,good
+./assets/shooting-video.mov,701,Refine Aim,good,good,good,good,good,good,good
+./assets/shooting-video.mov,702,Refine Aim,good,good,good,good,good,good,good
+./assets/shooting-video.mov,703,Refine Aim,good,good,good,good,good,good,good
+./assets/shooting-video.mov,704,Refine Aim,good,good,good,good,good,good,good
+./assets/shooting-video.mov,705,Refine Aim,good,good,good,good,good,good,good
+./assets/shooting-video.mov,706,Refine Aim,good,good,good,good,good,good,good
+./assets/shooting-video.mov,707,Refine Aim,good,good,good,good,good,good,good
+./assets/shooting-video.mov,708,Refine Aim,good,good,good,good,good,good,good
+./assets/shooting-video.mov,709,Refine Aim,good,good,good,good,good,good,good
+./assets/shooting-video.mov,710,Refine Aim,good,good,good,good,good,good,good
+./assets/shooting-video.mov,711,Refine Aim,good,good,good,good,good,good,good
+./assets/shooting-video.mov,712,Refine Aim,good,good,good,good,good,good,good
+./assets/shooting-video.mov,713,Refine Aim,good,good,good,good,good,good,good
+./assets/shooting-video.mov,714,Refine Aim,good,good,good,good,good,good,good
+./assets/shooting-video.mov,715,Refine Aim,good,good,good,good,good,good,good
+./assets/shooting-video.mov,716,Refine Aim,good,good,good,good,good,good,good
+./assets/shooting-video.mov,717,Refine Aim,good,good,good,good,good,good,good
+./assets/shooting-video.mov,718,Refine Aim,good,good,good,good,good,good,good
+./assets/shooting-video.mov,719,Refine Aim,good,good,good,good,good,good,good
+./assets/shooting-video.mov,720,Refine Aim,good,good,good,good,good,good,good
+./assets/shooting-video.mov,721,Refine Aim,good,good,good,good,good,good,good
+./assets/shooting-video.mov,722,Refine Aim,good,good,good,good,good,good,good
+./assets/shooting-video.mov,723,Refine Aim,good,good,good,good,good,good,good
+./assets/shooting-video.mov,724,Refine Aim,good,good,good,good,good,good,good
+./assets/shooting-video.mov,725,Refine Aim,good,good,good,good,good,good,good
+./assets/shooting-video.mov,726,Refine Aim,good,good,good,good,good,good,good
+./assets/shooting-video.mov,727,Refine Aim,good,good,good,good,good,good,good
+./assets/shooting-video.mov,728,Refine Aim,good,good,good,good,good,good,good
+./assets/shooting-video.mov,729,Breathing Control,good,good,good,good,good,good,good
+./assets/shooting-video.mov,730,Breathing Control,good,good,good,good,good,good,good
+./assets/shooting-video.mov,731,Breathing Control,good,good,good,good,good,good,good
+./assets/shooting-video.mov,732,Breathing Control,good,good,good,good,good,good,good
+./assets/shooting-video.mov,733,Breathing Control,good,good,good,good,good,good,good
+./assets/shooting-video.mov,734,Breathing Control,good,good,good,good,good,good,good
+./assets/shooting-video.mov,735,Breathing Control,good,good,good,good,good,good,good
+./assets/shooting-video.mov,736,Breathing Control,good,good,good,good,good,good,good
+./assets/shooting-video.mov,737,Breathing Control,good,good,good,good,good,good,good
+./assets/shooting-video.mov,738,Breathing Control,good,good,good,good,good,good,good
+./assets/shooting-video.mov,739,Breathing Control,good,good,good,good,good,good,good
+./assets/shooting-video.mov,740,Breathing Control,good,good,good,good,good,good,good
+./assets/shooting-video.mov,741,Breathing Control,good,good,good,good,good,good,good
+./assets/shooting-video.mov,742,Breathing Control,good,good,good,good,good,good,good
+./assets/shooting-video.mov,743,Breathing Control,good,good,good,good,good,good,good
+./assets/shooting-video.mov,744,Breathing Control,good,good,good,good,good,good,good
+./assets/shooting-video.mov,745,Breathing Control,good,good,good,good,good,good,good
+./assets/shooting-video.mov,746,Breathing Control,good,good,good,good,good,good,good
+./assets/shooting-video.mov,747,Breathing Control,good,good,good,good,good,good,bad
+./assets/shooting-video.mov,748,Breathing Control,good,good,good,good,good,good,bad
+./assets/shooting-video.mov,749,Breathing Control,good,good,good,good,good,good,bad
+./assets/shooting-video.mov,750,Breathing Control,good,good,good,good,good,good,bad
+./assets/shooting-video.mov,751,Breathing Control,good,good,good,good,good,good,bad
+./assets/shooting-video.mov,752,Breathing Control,good,good,good,good,good,good,bad
+./assets/shooting-video.mov,753,Breathing Control,good,good,good,good,good,good,bad
+./assets/shooting-video.mov,754,Breathing Control,good,good,good,good,good,good,bad
+./assets/shooting-video.mov,755,Breathing Control,good,good,good,good,good,good,bad
+./assets/shooting-video.mov,756,Breathing Control,good,good,good,good,good,bad,bad
+./assets/shooting-video.mov,757,Breathing Control,good,good,good,good,good,bad,bad
+./assets/shooting-video.mov,758,Breathing Control,good,good,good,good,good,bad,bad
+./assets/shooting-video.mov,759,Breathing Control,good,good,good,good,good,bad,bad
+./assets/shooting-video.mov,760,Breathing Control,good,good,good,good,good,bad,bad
+./assets/shooting-video.mov,761,Breathing Control,good,good,good,good,good,bad,bad
+./assets/shooting-video.mov,762,Breathing Control,good,good,good,good,good,bad,bad
+./assets/shooting-video.mov,763,Breathing Control,good,good,good,good,good,bad,bad
+./assets/shooting-video.mov,764,Breathing Control,good,good,good,good,good,bad,bad
+./assets/shooting-video.mov,765,Breathing Control,good,good,good,good,bad,bad,bad
+./assets/shooting-video.mov,766,Breathing Control,good,good,good,good,bad,bad,bad
+./assets/shooting-video.mov,767,Breathing Control,good,good,good,good,bad,bad,bad
+./assets/shooting-video.mov,768,Breathing Control,good,good,good,good,bad,bad,bad
+./assets/shooting-video.mov,769,Breathing Control,good,good,good,good,bad,bad,bad
+./assets/shooting-video.mov,770,Breathing Control,good,good,good,good,bad,bad,bad
+./assets/shooting-video.mov,771,Breathing Control,good,good,good,good,bad,bad,bad
+./assets/shooting-video.mov,772,Breathing Control,good,good,good,good,bad,bad,bad
+./assets/shooting-video.mov,773,Breathing Control,good,good,good,good,bad,bad,bad
+./assets/shooting-video.mov,774,Breathing Control,good,good,good,good,bad,bad,bad
+./assets/shooting-video.mov,775,Breathing Control,good,good,good,good,bad,bad,bad
+./assets/shooting-video.mov,776,Breathing Control,good,good,good,good,bad,bad,bad
+./assets/shooting-video.mov,777,Breathing Control,good,good,good,good,bad,bad,bad
+./assets/shooting-video.mov,778,Breathing Control,good,good,good,good,bad,bad,bad
+./assets/shooting-video.mov,779,Breathing Control,good,good,good,good,bad,bad,bad
+./assets/shooting-video.mov,780,Breathing Control,good,good,good,good,bad,bad,bad
+./assets/shooting-video.mov,781,Breathing Control,good,good,good,good,bad,bad,bad
+./assets/shooting-video.mov,782,Breathing Control,good,good,good,good,bad,bad,bad
+./assets/shooting-video.mov,783,Breathing Control,good,good,good,good,good,bad,bad
+./assets/shooting-video.mov,784,Breathing Control,good,good,good,good,good,bad,bad
+./assets/shooting-video.mov,785,Breathing Control,good,good,good,good,good,bad,bad
+./assets/shooting-video.mov,786,Breathing Control,good,good,good,good,good,bad,bad
+./assets/shooting-video.mov,787,Breathing Control,good,good,good,good,good,bad,bad
+./assets/shooting-video.mov,788,Breathing Control,good,good,good,good,good,bad,bad
+./assets/shooting-video.mov,789,Breathing Control,good,good,good,good,good,bad,bad
+./assets/shooting-video.mov,790,Breathing Control,good,good,good,good,good,bad,bad
+./assets/shooting-video.mov,791,Breathing Control,good,good,good,good,good,bad,bad
+./assets/shooting-video.mov,792,Breathing Control,good,good,good,good,good,good,bad
+./assets/shooting-video.mov,793,Breathing Control,good,good,good,good,good,good,bad
+./assets/shooting-video.mov,794,Breathing Control,good,good,good,good,good,good,bad
+./assets/shooting-video.mov,795,Breathing Control,good,good,good,good,good,good,bad
+./assets/shooting-video.mov,796,Breathing Control,good,good,good,good,good,good,bad
+./assets/shooting-video.mov,797,Breathing Control,good,good,good,good,good,good,bad
+./assets/shooting-video.mov,798,Breathing Control,good,good,good,good,good,good,bad
+./assets/shooting-video.mov,799,Breathing Control,good,good,good,good,good,good,bad
+./assets/shooting-video.mov,800,Breathing Control,good,good,good,good,good,good,bad
+./assets/shooting-video.mov,801,Breathing Control,good,good,good,good,good,good,good
+./assets/shooting-video.mov,802,Breathing Control,good,good,good,good,good,good,good
+./assets/shooting-video.mov,803,Breathing Control,good,good,good,good,good,good,good
+./assets/shooting-video.mov,804,Breathing Control,good,good,good,good,good,good,good
+./assets/shooting-video.mov,805,Breathing Control,good,good,good,good,good,good,good
+./assets/shooting-video.mov,806,Breathing Control,good,good,good,good,good,good,good
+./assets/shooting-video.mov,807,Breathing Control,good,good,good,good,good,good,good
+./assets/shooting-video.mov,808,Breathing Control,good,good,good,good,good,good,good
+./assets/shooting-video.mov,809,Breathing Control,good,good,good,good,good,good,good
+./assets/shooting-video.mov,810,Breathing Control,good,good,good,good,good,good,good
+./assets/shooting-video.mov,811,Breathing Control,good,good,good,good,good,good,good
+./assets/shooting-video.mov,812,Breathing Control,good,good,good,good,good,good,good
+./assets/shooting-video.mov,813,Breathing Control,good,good,good,good,good,good,good
+./assets/shooting-video.mov,814,Breathing Control,good,good,good,good,good,good,good
+./assets/shooting-video.mov,815,Breathing Control,good,good,good,good,good,good,good
+./assets/shooting-video.mov,816,Breathing Control,good,good,good,good,good,good,good
+./assets/shooting-video.mov,817,Breathing Control,good,good,good,good,good,good,good
+./assets/shooting-video.mov,818,Breathing Control,good,good,good,good,good,good,good
+./assets/shooting-video.mov,819,Breathing Control,good,good,good,good,good,good,good
+./assets/shooting-video.mov,820,Breathing Control,good,good,good,good,good,good,good
+./assets/shooting-video.mov,821,Breathing Control,good,good,good,good,good,good,good
+./assets/shooting-video.mov,822,Breathing Control,good,good,good,good,good,good,good
+./assets/shooting-video.mov,823,Breathing Control,good,good,good,good,good,good,good
+./assets/shooting-video.mov,824,Breathing Control,good,good,good,good,good,good,good
+./assets/shooting-video.mov,825,Breathing Control,good,good,good,good,good,good,good
+./assets/shooting-video.mov,826,Breathing Control,good,good,good,good,good,good,good
+./assets/shooting-video.mov,827,Breathing Control,good,good,good,good,good,good,good
+./assets/shooting-video.mov,828,Breathing Control,good,good,good,good,good,good,good
+./assets/shooting-video.mov,829,Breathing Control,good,good,good,good,good,good,good
+./assets/shooting-video.mov,830,Breathing Control,good,good,good,good,good,good,good
+./assets/shooting-video.mov,831,Breathing Control,good,good,good,good,good,good,good
+./assets/shooting-video.mov,832,Breathing Control,good,good,good,good,good,good,good
+./assets/shooting-video.mov,833,Breathing Control,good,good,good,good,good,good,good
+./assets/shooting-video.mov,834,Breathing Control,good,good,good,good,good,good,good
+./assets/shooting-video.mov,835,Breathing Control,good,good,good,good,good,good,good
+./assets/shooting-video.mov,836,Breathing Control,good,good,good,good,good,good,good
+./assets/shooting-video.mov,837,Breathing Control,good,good,good,good,good,good,good
+./assets/shooting-video.mov,838,Breathing Control,good,good,good,good,good,good,good
+./assets/shooting-video.mov,839,Breathing Control,good,good,good,good,good,good,good
+./assets/shooting-video.mov,840,Breathing Control,good,good,good,good,good,good,good
+./assets/shooting-video.mov,841,Breathing Control,good,good,good,good,good,good,good
+./assets/shooting-video.mov,842,Breathing Control,good,good,good,good,good,good,good
+./assets/shooting-video.mov,843,Breathing Control,good,good,good,good,good,good,good
+./assets/shooting-video.mov,844,Breathing Control,good,good,good,good,good,good,good
+./assets/shooting-video.mov,845,Breathing Control,good,good,good,good,good,good,good
+./assets/shooting-video.mov,846,Breathing Control,good,good,good,good,good,good,good
+./assets/shooting-video.mov,847,Breathing Control,good,good,good,good,good,good,good
+./assets/shooting-video.mov,848,Breathing Control,good,good,good,good,good,good,good
+./assets/shooting-video.mov,849,Breathing Control,good,good,good,good,good,good,good
+./assets/shooting-video.mov,850,Breathing Control,good,good,good,good,good,good,good
+./assets/shooting-video.mov,851,Breathing Control,good,good,good,good,good,good,good
+./assets/shooting-video.mov,852,Breathing Control,good,good,good,good,good,good,good
+./assets/shooting-video.mov,853,Breathing Control,good,good,good,good,good,good,good
+./assets/shooting-video.mov,854,Breathing Control,good,good,good,good,good,good,good
+./assets/shooting-video.mov,855,Breathing Control,good,good,good,good,good,good,good
+./assets/shooting-video.mov,856,Breathing Control,good,good,good,good,good,good,good
+./assets/shooting-video.mov,857,Breathing Control,good,good,good,good,good,good,good
+./assets/shooting-video.mov,858,Breathing Control,good,good,good,good,good,good,good
+./assets/shooting-video.mov,859,Breathing Control,good,good,good,good,good,good,good
+./assets/shooting-video.mov,860,Breathing Control,good,good,good,good,good,good,good
+./assets/shooting-video.mov,861,Breathing Control,good,good,good,good,good,good,good
+./assets/shooting-video.mov,862,Breathing Control,good,good,good,good,good,good,good
+./assets/shooting-video.mov,863,Breathing Control,good,good,good,good,good,good,good
+./assets/shooting-video.mov,864,Trigger Control,good,good,good,good,good,good,good
+./assets/shooting-video.mov,865,Trigger Control,good,good,good,good,good,good,good
+./assets/shooting-video.mov,866,Trigger Control,good,good,good,good,good,good,good
+./assets/shooting-video.mov,867,Trigger Control,good,good,good,good,good,good,good
+./assets/shooting-video.mov,868,Trigger Control,good,good,good,good,good,good,good
+./assets/shooting-video.mov,869,Trigger Control,good,good,good,good,good,good,good
+./assets/shooting-video.mov,870,Trigger Control,good,good,good,good,good,good,good
+./assets/shooting-video.mov,871,Trigger Control,good,good,good,good,good,good,good
+./assets/shooting-video.mov,872,Trigger Control,good,good,good,good,good,good,good
+./assets/shooting-video.mov,873,Trigger Control,good,good,good,good,good,good,good
+./assets/shooting-video.mov,874,Trigger Control,good,good,good,good,good,good,good
+./assets/shooting-video.mov,875,Trigger Control,good,good,good,good,good,good,good
+./assets/shooting-video.mov,876,Trigger Control,good,good,good,good,good,good,good
+./assets/shooting-video.mov,877,Trigger Control,good,good,good,good,good,good,good
+./assets/shooting-video.mov,878,Trigger Control,good,good,good,good,good,good,good
+./assets/shooting-video.mov,879,Trigger Control,good,good,good,good,good,good,good
+./assets/shooting-video.mov,880,Trigger Control,good,good,good,good,good,good,good
+./assets/shooting-video.mov,881,Trigger Control,good,good,good,good,good,good,good
+./assets/shooting-video.mov,882,Trigger Control,good,good,good,good,good,good,good
+./assets/shooting-video.mov,883,Trigger Control,good,good,good,good,good,good,good
+./assets/shooting-video.mov,884,Trigger Control,good,good,good,good,good,good,good
+./assets/shooting-video.mov,885,Trigger Control,good,good,good,good,good,good,good
+./assets/shooting-video.mov,886,Trigger Control,good,good,good,good,good,good,good
+./assets/shooting-video.mov,887,Trigger Control,good,good,good,good,good,good,good
+./assets/shooting-video.mov,888,Trigger Control,good,good,good,good,good,good,good
+./assets/shooting-video.mov,889,Trigger Control,good,good,good,good,good,good,good
+./assets/shooting-video.mov,890,Trigger Control,good,good,good,good,good,good,good
+./assets/shooting-video.mov,891,Trigger Control,good,good,good,good,good,good,good
+./assets/shooting-video.mov,892,Trigger Control,good,good,good,good,good,good,good
+./assets/shooting-video.mov,893,Trigger Control,good,good,good,good,good,good,good
+./assets/shooting-video.mov,894,Trigger Control,good,good,good,good,good,good,good
+./assets/shooting-video.mov,895,Trigger Control,good,good,good,good,good,good,good
+./assets/shooting-video.mov,896,Trigger Control,good,good,good,good,good,good,good
+./assets/shooting-video.mov,897,Trigger Control,good,good,good,good,good,good,good
+./assets/shooting-video.mov,898,Trigger Control,good,good,good,good,good,good,good
+./assets/shooting-video.mov,899,Trigger Control,good,good,good,good,good,good,good
+./assets/shooting-video.mov,900,Trigger Control,good,good,good,good,good,good,good
