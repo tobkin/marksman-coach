@@ -5,6 +5,7 @@
 #### Pitch
 
 #### Frontend Engineering
+- [Ryan]: Steamlit App
 
 #### Integration Engineering
 
