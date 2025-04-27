@@ -46,6 +46,19 @@ st.markdown(
     """
 )
 
+# --- SideBar ---
+DATA_SOURCE_REAL_DATA_SIDEBAR_OPTION="Real Data"
+DATA_SOURCE_STUB_DATA_SIDEBAR_OPTION="Stub Data"
+
+st.sidebar.title("Navigation")
+
+data_source = st.sidebar.radio("Select Data Source:",
+    options = [
+        DATA_SOURCE_REAL_DATA_SIDEBAR_OPTION,
+        DATA_SOURCE_STUB_DATA_SIDEBAR_OPTION
+    ], captions=["",""]
+    )
+
 # --- Get frames from file ---
 frame_files = sorted([
     os.path.join(frames_path, fname)
@@ -55,7 +68,10 @@ frames = [Image.open(f) for f in frame_files]
 
 # --- Load Predictions ---
 try:
-    predictions = pd.read_csv("./data/stub/stub-predictions.csv")
+    if data_source == DATA_SOURCE_STUB_DATA_SIDEBAR_OPTION:
+        predictions = pd.read_csv("./data/pose-estimations/stub/stub-predictions.csv")
+    else:
+        predictions = pd.read_csv("./data/pose-estimations/stub/stub-predictions.csv")
     # Limit frames to match predictions if needed
     if len(frames) > len(predictions):
         frames = frames[:len(predictions)]
