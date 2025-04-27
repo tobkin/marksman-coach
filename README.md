@@ -21,6 +21,9 @@
 └── shooting-video.mov
 ```
 
+## Tech Stack
+See [tech-stack.md](tech-stack.md) for details on the technologies used.
+
 ## Dev Environment Setup
 1. Create a virtual environment:
    ```bash
