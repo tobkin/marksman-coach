@@ -1,8 +1,8 @@
 ### In Progress
-- [Toby] Stub data for live app
-- [Toby] Model selection
+- [Toby] Exploratory modeling
 
 #### Pitch
+- Practice pitching
 
 #### Frontend Engineering
 - [Ryan]: Steamlit App
