@@ -1,6 +1,6 @@
 # Marksmanship Excellence Under Constraint: The Ranger Solution
 
-## Problem Statement: The Marksmanship Readyness Problem
+## Problem Statement: The Marksmanship Training Problem
 
 *Visual Aids:*
 [ ] `./assets/pitch/range-incident-tearsheet.png`
