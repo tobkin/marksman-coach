@@ -3,6 +3,7 @@ import streamlit as st
 from PIL import Image
 import pandas as pd
 import time
+import numpy as np
 
 # Initialize session state
 if 'playing' not in st.session_state:
@@ -11,6 +12,8 @@ if 'current_frame' not in st.session_state:
     st.session_state['current_frame'] = 0
 if 'fps' not in st.session_state:
     st.session_state['fps'] = 60
+if 'frames_data' not in st.session_state:
+    st.session_state['frames_data'] = None
 
 # Function to toggle play/pause
 def toggle_play():
@@ -63,12 +66,51 @@ data_source = st.sidebar.radio("Select Data Source:",
     ], captions=["",""]
     )
 
-# --- Get frames from file ---
+# --- Get frame files from directory ---
 frame_files = sorted([
     os.path.join(frames_path, fname)
     for fname in os.listdir(frames_path)
+    if fname.lower().endswith(('.png', '.jpg', '.jpeg'))
 ]) 
-frames = [Image.open(f) for f in frame_files]
+
+# --- Load frames efficiently ---
+# Only load frames data once and store in session state
+if st.session_state['frames_data'] is None:
+    # Show loading message
+    with st.spinner("Loading frames... This may take a moment."):
+        frames_data = []
+        # Process in batches to avoid too many open files
+        BATCH_SIZE = 50
+        
+        # Create a progress bar
+        progress_bar = st.progress(0)
+        total_files = len(frame_files)
+        
+        for i in range(0, total_files, BATCH_SIZE):
+            batch_files = frame_files[i:i+BATCH_SIZE]
+            batch_frames = []
+            
+            for f in batch_files:
+                with Image.open(f) as img:
+                    # Convert to RGB to ensure consistency
+                    if img.mode != 'RGB':
+                        img = img.convert('RGB')
+                    # Store as numpy array to fully detach from file handle
+                    batch_frames.append(np.array(img))
+            
+            frames_data.extend(batch_frames)
+            
+            # Update progress bar
+            progress = min(i + BATCH_SIZE, total_files) / total_files
+            progress_bar.progress(progress)
+                
+        st.session_state['frames_data'] = frames_data
+        # Clear the progress bar when done
+        progress_bar.empty()
+        st.success(f"Successfully loaded {len(frames_data)} frames")
+
+# Get frames from session state
+frames_data = st.session_state['frames_data']
 
 # --- Load Predictions ---
 try:
@@ -77,8 +119,8 @@ try:
     else:
         predictions = pd.read_csv("./data/pose-estimations/stub/stub-predictions.csv")
     # Limit frames to match predictions if needed
-    if len(frames) > len(predictions):
-        frames = frames[:len(predictions)]
+    if len(frames_data) > len(predictions):
+        frames_data = frames_data[:len(predictions)]
 except Exception as e:
     st.warning(f"Could not load predictions: {e}")
     predictions = None
@@ -91,7 +133,7 @@ def on_frame_change():
 current_frame = st.slider(
     "Frame", 
     0, 
-    len(frames)-1, 
+    len(frames_data)-1, 
     st.session_state['current_frame'], 
     key="frame_slider",
     on_change=on_frame_change
@@ -105,7 +147,7 @@ if st.button("Play/Pause"):
 
 # Update frame only if playing
 if st.session_state['playing']:
-    st.session_state['current_frame'] = (st.session_state['current_frame'] + 5) % len(frames)
+    st.session_state['current_frame'] = (st.session_state['current_frame'] + 5) % len(frames_data)
 
 # Get current frame index for display
 current_idx = st.session_state['current_frame']
@@ -150,8 +192,9 @@ else:
 col1, col2 = st.columns([3, 2])
 
 with col1:
-    # Display current frame
-    st.image(frames[current_idx], caption=f"Frame {current_idx+1}/{len(frames)}")
+    # Display current frame - convert numpy array back to image
+    current_frame_img = Image.fromarray(frames_data[current_idx])
+    st.image(current_frame_img, caption=f"Frame {current_idx+1}/{len(frames_data)}")
 
 with col2:
     st.subheader("Feedback")
