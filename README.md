@@ -3,7 +3,7 @@
 .
 ├── assets
 │   ├── banner.png
-│   └── shooting-video.mov
+│   └── marksman-pipes-vid.mov
 ├── data
 │   ├── example-pose-predictions
 │   ├── multi-subject
@@ -18,7 +18,6 @@
 ├── army-marksmanship-unit-rifle.pdf
 ├── army-rifle-and-carbine.pdf
 ├── requirements.txt
-└── shooting-video.mov
 ```
 
 ## Tech Stack
