@@ -28,6 +28,10 @@ st.markdown(
         .green-text {
             color: green;
         }
+        section.stMain .block-container {
+        padding-top: 0rem;
+        z-index: 1;
+    }
     </style>
     """,
     unsafe_allow_html=True

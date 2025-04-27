@@ -12,8 +12,6 @@ st.markdown(
     """,
     unsafe_allow_html=True
 )
-st.title("The Marksman Training Problem")
+st.title("Superhuman Feedback")
 
-
-st.image("./assets/pitch/training-ratio.jpg", width=600)
-st.image("./assets/pitch/training-accident.jpg", width=600)
+st.image("./assets/pitch/army-rifle-and-carbine-cover-sheet.png", width=600)
