@@ -133,15 +133,35 @@ with col2:
     api_result, cached = call_quickpose_api(selected_frame, cache_filename, api_key)
     
     if api_result:
-        status_msg = "🔄 Live API inference" if not cached else "💾 Cached inference"
-        st.success(f"{status_msg}")
+        # Remove displaying the first image since it's just a repeat of the input
+        if cached:
+            st.info("💾 Cached inference")
+        else:
+            st.success("🔄 Live API inference")
         
         # Display the result as a code block
         with st.expander("Show API Response JSON", expanded=False):
             st.code(json.dumps(api_result, indent=2), language="json")
         
-        # You could also visualize the pose landmarks on the image here
-        # This would require parsing the API response and drawing on the image
+        # Display each measurement with its image in a collapsible section
+        if "measurements" in api_result:
+            for i, measurement in enumerate(api_result["measurements"]):
+                name = measurement.get("name", "Unknown")
+                title = measurement.get("title", name)
+                bodyPart = measurement.get("bodyPart", "")
+                
+                # Set the first measurement's expandable to be expanded by default
+                is_expanded = (i == 0)
+                
+                with st.expander(f"{title} ({bodyPart})", expanded=is_expanded):
+                    # Display measurement values
+                    if "value" in measurement:
+                        value = measurement["value"]
+                        st.write(f"**Values:** {json.dumps(value)}")
+                    
+                    # Display the measurement-specific image
+                    if "image" in measurement and "data" in measurement["image"]:
+                        st.image(measurement["image"]["data"], caption=f"{title} analysis")
     else:
         st.error("API call failed or API key not provided")
 
