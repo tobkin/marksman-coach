@@ -1,12 +1,5 @@
 ## Marksman Coach
 
-### Anecdote by Ryan
-#### Quantify the Impact
-
-### Solution
-#### Strategy
-#### Tech Stack
-
 ## Repo Map
 ```
 .
@@ -65,7 +58,7 @@ See [tech-stack.md](tech-stack.md) for details on the technologies used.
 
 4. Run the Streamlit app:
    ```bash
-   streamlit run app.py
+   streamlit run Marksman_Trainer.py
    ```
 
 ## Canva Mockup
