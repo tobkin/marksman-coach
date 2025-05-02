@@ -70,6 +70,7 @@ See [tech-stack.md](tech-stack.md) for details on the technologies used.
 - [Improving handgun detection through a combination of visual features and body pose-based data](https://www.sciencedirect.com/science/article/pii/S0031320322007312)  
 - Reference Githubs:
   - [Edunet_AI_internship_2025](https://github.com/itzdineshx/Edunet_AI_internship_2025?tab=readme-ov-file)
+- [Perplexity: Estimate Yearly Hours of Training in the US Army](https://www.perplexity.ai/search/estimate-the-number-of-hours-t-xCe_kjK1ToOzN4tMdGjk9g#1)
 
 ## Shot Process Overview
 

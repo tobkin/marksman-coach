@@ -44,6 +44,7 @@ current_dir = os.path.dirname(os.path.abspath(__file__))
 video_path = os.path.join(current_dir, "./assets/marksman-pipes-vid.mov")
 banner_path = os.path.join(current_dir, "./assets/banner.png")
 frames_path = os.path.join(current_dir, "./data/frames")
+st.markdown("&nbsp;")  # Add empty space
 st.image(banner_path)
 st.title("Marksman Trainer")
 st.markdown(

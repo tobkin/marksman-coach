@@ -1,8 +1,9 @@
-# Marksmanship Excellence Under Constraint: The Ranger Solution
+# Marksmanship Excellence Under Constraint
+Ryan, Paul, and Toby met at Stanford University on April 25, 2025 during the 
 
 ## Problem Statement: The Marksmanship Training Problem
 
-The US Army operates under resource constraints that challenge overall readiness. A single instructor is responsible for five soldiers, and they must dedicate most of their attention to safety not coaching. Furthermore, ammunition allocations are as limited as 100 rounds per soldier annually, so the Army is not reaching its full potential.
+The US Army operates under two key training resource constraints that challenge overall readiness: instructors and ammunition. A single instructor is responsible for five soldiers, and they must dedicate most of their attention to safety not coaching. Furthermore, ammunition allocations are as limited as 100 rounds per soldier annually, so the Army is not reaching its full potential with the limited resources available.
 
 ## Technical Solution: Pose Analysis Technology
 
